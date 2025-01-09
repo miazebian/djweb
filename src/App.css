@@ -1,0 +1,49 @@
+:root {
+  --primary-bg: black; /* Header background color */
+  --primary-text: white; /* Primary text color */
+  --button-bg: white; /* Button background color */
+  --button-text: black; /* Button text color */
+  --button-hover-bg: #ddd; /* Button hover background color */
+  --border1: #4e59e8;
+  --border: #f39c12;
+  --contact-bg: #f8f9fa;
+  --white-color: white;
+  --red-color: red;
+  --off-white: #f3f3f3;
+  --black-color: black;
+  --above-bg: #232323;
+  --above-text: #333;
+  --above-desc: #666;
+  --above-personal: #4CAF50;
+  --above-prepared: #FF9800;
+  --above-exp: #2196F3;
+  --above-att: #E91E63;
+  --social-bg:#444;
+  --copyright-text:#aaa;
+  --above-collaboration: #FF6F61;  /* Coral/Orange for collaboration */
+  --above-quality: #4CAF50;        /* Green for sound quality */
+  --above-energy: #FFEB3B;         /* Yellow for energy */
+  --above-capture: #2196F3; 
+}
+
+
+.arrow-down {
+  position: relative;
+  overflow-x: clip; /* Ensures no overflow along the horizontal axis */
+
+  width: 100%; /* Ensures the width is exactly the screen's width */
+  box-sizing: border-box; /* Prevents padding/borders from expanding the width */
+}
+
+.arrow-down::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 50vw solid transparent; /* Adjust the left border width */
+  border-right: 50vw solid transparent; /* Adjust the right border width */
+  border-top: 125px solid var(--above-bg); /* Arrow color, change to your desired color */
+}

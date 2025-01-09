@@ -1,0 +1,221 @@
+
+/* Main Container */
+.contact-page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+.cursive-text2 {
+    font-family: 'Brush Script MT', cursive;  /* Using cursive font */
+    font-size: 1.5em;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+/* Page Title and Intro */
+.contact-page-container h1 {
+    text-align: center;
+    color: var(--border);
+    margin-bottom: 0.5rem;
+}
+
+.contact-page-container p {
+    text-align: center;
+    color: var(--button-text);
+}
+
+/* Split Container */
+.contact-page-content {
+    display: flex;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.contact-form-section,
+.contact-info-section {
+    border-radius: 8px;
+}
+
+
+/* Booking Form Background */
+.contact-form-section {
+    flex:1.5;
+    position: relative;
+   background-image: url('../../assets/images/ContactImage.jpg'); /* Replace with your actual image path */
+    background-size: cover;
+    background-position: center;
+    color: var(--button-text);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+/* Contact Form (White Background) */
+.contact-form {
+    position: relative;
+    z-index: 2;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 2rem;
+    border-radius: 8px;
+    width: 85%;
+}
+
+/* Form Styles */
+.contact-form label {
+    display: block;  /* Ensure each label starts on a new line */
+    margin-bottom: 1rem;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+    width: 100%; /* Ensure full width */
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    background-color: var(--off-white);
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.3s ease;
+    box-sizing: border-box; /* Include padding and border in the width */
+}
+
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
+    border-color: var(--border);
+}
+
+.contact-form textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.contact-form .label-text {
+    display: flex;
+    align-items: center;
+}
+
+/* Adjustments for better layout */
+.contact-form-section {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;  /* Ensure form sections are stacked vertically */
+}
+
+/* Submit Button */
+.submit-button {
+    padding: 0.8rem;
+    font-size: 1rem;
+    color: var(--button-bg);
+    background-color: var(--border);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 1rem;
+}
+
+.submit-button:hover {
+    background-color: var(--border);
+}
+
+/* Contact Info Section */
+.contact-info-section {
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    background:transparent;
+    text-align: left;
+    color: var(--button-text);
+}
+
+.contact-info-section h2 {
+    margin-bottom: 1rem;
+    color: var(--border);
+    align-self: center;
+}
+
+.contact-info-section p {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.contact-info-section a {
+    color: var(--border);
+    text-decoration: none;
+}
+
+.contact-info-section a:hover {
+    text-decoration: underline;
+}
+
+.required {
+    color: var(--red-color);
+    font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 880px) {
+    .contact-page-content {
+        flex-direction: column;
+    }
+}
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 20; 
+}
+
+.modal {
+    position: relative;
+    background: var(--white-color);
+    padding: 2rem;
+    border-radius: 8px;
+    text-align: center;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.spinner {
+    border: 4px solid var(--off-white);
+    border-top: 4px solid var(--border);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 2s linear infinite;
+    margin-bottom: 1rem; /* Adds space between the spinner and text */
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    font-size: 1.5rem;
+    color: --black-color;
+    cursor: pointer;
+}
+

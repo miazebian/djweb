@@ -1,0 +1,326 @@
+
+{
+  "header": {
+    "home": "Home",
+    "about": "About Us",
+    "reviews": "Reviews",
+    "events": "Events",
+    "faq":"FAQ",
+    "contact": "Contact Us",
+    "language": "Cambiar a Español",
+    "companyname": "DJ Parce"
+  },
+  "footer":{
+    "question":"Ready to work together?",
+    "header":"Enchant Your Event",
+    "company":"Company",
+    "connect":"Connect with Us",
+    "compressedLoc":"Raleigh, NC - USA",
+    "location":"Raleigh, NC - United States",
+    "copyright":" 2024 DJ Parce. All Rights Reserved. ",
+    "created":"Created by Mia Zebian",
+    "seeAll": "See All"
+
+  },
+  "home": {
+    "welcome": "Welcome to the Home Page!",
+    "header": "We bring the vibe and music to your event!",
+    "services": "Weddings . Corporate Events . Holiday Parties .\n Birthdays . Social Events . School Events .\n Nightlife Events . Fitness Parties",
+    "book": "Book Your Event"
+  },
+  "about": {
+    "title": "About Us",
+    "description": "We are passionate about building apps!",
+    "buttonText":"More About Us",
+    "home":{
+      "header":"HEY, WE’RE DJ Parce",
+      "paragraphText":"DJ Parce creates unforgettable events where guests can let loose, sing their hearts out, and dance the night away. While your event decor will be stunning and the food will be mouthwatering, it's the energy and fun that will leave a lasting impression.",
+      "boldText":" With DJ Parce behind the decks, your guests are guaranteed to have the best time of their lives." 
+    },
+    "aboutUs":{
+      "header":"The Story Behind Us",
+      "header2":"Our Purpose At DJ Parce",
+      "paragraph":"At DJ Parce, we believe in creating unforgettable experiences. Whether it’s a wedding, private event, or school celebration, our goal is to bring your vision to life with energy, passion, and creativity. Founded by Parce, a seasoned professional in the event industry, our team has a deep commitment to making every moment memorable. We specialize in providing exceptional entertainment, seamless event management, and personalized services that reflect your unique style. What sets us apart is our dedication to delivering top-tier experiences. From the first consultation to the final song of the night, we ensure that every detail is perfect, leaving you and your guests with memories that will last a lifetime.",
+      "boldText":" We understand that every event is different, which is why we make sure it's all about making sure you have the best time, and we can't wait to be a part of your next celebration."
+    },
+    "Image":{
+      "header":"READY TO CELEBRATE?",
+      "buttonText":"Contact Us"
+    }
+  },
+  
+    "reviews": {
+      "title": "Reviews",
+      "reviews": [
+        {
+          "text": "Thank you so much for such a magical night ♥ people have been raving at how amazing it was."
+        },
+        {
+          "text": "Your music made our holiday party one to remember! The transitions were flawless, and the holiday classics made everyone feel festive while the newer songs kept the energy high. 🎅🎄 We’re definitely having you back next year."
+        },
+        {
+          "text": "Loved it!! had so much fun!! You are THE BEST!!!"
+        },
+        {
+          "text": "Wow! You made my Sweet 16 one for the books! The atmosphere you created was perfect – I felt like I was at a concert! 🎤🔥 The way you blended songs kept everyone on their toes. How can we book you again for another event? My cousin wants the same vibe for her Sweet 16!"
+        },
+        {
+          "text": "So many people told me they loved you!!! I will always refer you if anyone asks! 😊"
+        },
+        {
+          "text": "You made my Quinceañera so magical! The music was exactly what I envisioned, and it really set the mood for the entire event. From traditional songs to the latest hits, everyone had an incredible time. 🌟🎶 I definitely want the same energy for my cousin’s quinceañera. Can we book you for that too?"
+        },
+        {
+          "text": "Thank you for making our event so memorable!"
+        },
+        {
+          "text": "heyyyy!!! thank you so so so much for last night! everything was amazing and people LOVED the music! vibes were immaculate!! thank you thank you thank you!!!"
+        },
+        {
+          "text": "Thank you for making our wedding unforgettable! The music was perfect, and the energy was amazing. We had guests on the dance floor all night! 🎶💍"
+        },
+        {
+          "text": "Fantastic job at our event! The atmosphere was lively, and you seamlessly blended the music to suit the crowd. Our team had a blast!"
+        },
+        {
+          "text": "The party wouldn't have been the same without you! Your playlist was spot on, and the vibe was electric! Best DJ experience ever!"
+        },
+        {
+          "text": "Hands down the best DJ in town! The beats kept me dancing all night. The crowd was hyped, and the transitions between tracks were flawless. 🔥"
+        },
+        {
+          "text": "Epic set at the festival! Your energy was contagious, and the sound quality was incredible. Can't wait to see you perform again! 🎧🎉"
+        },
+        {
+          "text": "Thank you for making my birthday celebration a night to remember! You played all my favorite songs and kept the party going all night long! 🎂🎶"
+        },
+        {
+          "text": "The vibe you created at the beach party was amazing! The tunes matched the sunset perfectly, and it was the ultimate way to close out the weekend. 🌊🎶"
+        },
+        {
+          "text": "Such an epic vibe at our fitness event! Your music kept us motivated and energized the entire time. The upbeat tracks were perfect for our workout sessions. 💪🎧 We’ve already gotten so many people asking where we found you! Can you DJ at our next fitness event?"
+        },
+        {
+          "text": "Thank you so much for being part of our school dance! The music really set the tone for the night, and everyone was dancing from start to finish. 🎧📚 It was a perfect blend of upbeat tracks and classics for everyone to enjoy. Will you be available for our next event? We want the same vibe again!"
+        }
+      ]
+    },
+  "events": {
+    "title": "Our Events",
+    "description": "DJ Parce has experience in all sorts of events – from weddings to arenas, everywhere he plays he makes the crowd move.",
+    "wedding": "Weddings",
+    "private": "Social Events",
+    "school": "School Events",
+    "birthdays":"Birthdays",
+    "corporate":"Corporate Events",
+    "holiday":"Holiday Parties",
+    "nightlife":"Nightlife Events",
+    "fitness":"Fitness Parties",
+    "weddingEvent": {
+      "header": "🎶 Your Perfect Wedding Soundtrack – DJ Services for Every Moment of Your Special Day 💍",
+      "SubHeader": "💍 The Soundtrack of Your Love Story – Professional DJ Services for Weddings 🎶",
+      "MiniHeader": "Make your wedding day unforgettable with expert DJ services that span from the ceremony to the last dance at the reception. Our DJs will provide the perfect musical backdrop for every moment, from the grand entrance to the formal dances and cake cutting. As emcees, we’ll ensure smooth transitions throughout the event, keeping everything on schedule and enhancing the celebration. Let us create a personalized playlist that reflects your style and sets the perfect tone for your special day. Trust us to be part of the magic on your wedding day!"
+    },
+    "privateEvent": {
+      "header": "🎶 Celebrate Every Moment – DJ Services for Unforgettable Social Events 🎉",
+      "SubHeader": "🎉 Celebrate in Style – Professional DJ Services for Social Events 🎶",
+      "MiniHeader": "Make your next social event one to remember with expert DJ services designed to elevate every moment. Whether it’s a birthday party, anniversary, reunion, or any special occasion, we provide the perfect soundtrack to keep your guests dancing and having fun. From upbeat tracks to set the mood to personalized playlists that reflect your theme, we ensure the music flows seamlessly throughout the event. Our DJs also handle emceeing duties for smooth transitions, announcements, and toasts, allowing you to focus on enjoying the celebration. Let us create the ultimate atmosphere for your social gathering!"
+    },
+    "schoolEvent": {
+      "header": "🎶 Unforgettable School Events – DJ Services for Proms, Dances, and More 🎉",
+      "SubHeader": "🎓 Make Every Moment Shine – Professional DJ Services for Proms, School Dances, and Events 🎉",
+      "MiniHeader": "Create unforgettable memories with our expert DJ services for proms, school dances, and other school events! We specialize in playing contemporary Top 40 hits and a variety of genres that appeal to young crowds, ensuring the music keeps everyone on the dance floor. From the latest chart-toppers to timeless classics, we cater to all tastes, while keeping everything family-friendly with clean versions of popular songs. Whether it’s a homecoming dance, graduation celebration, or a school-themed event, our DJs are dedicated to creating a fun, energetic atmosphere that makes the night memorable for students and staff alike. Let us set the perfect tone for your school’s next big event!"
+    },
+    "corporateEvents":{
+      "header":"Professional DJ Services for Your Corporate Event",
+      "SubHeader":"🎵 Elevate Your Corporate Event with Professional DJ Services 🎵",
+      "MiniHeader":"Looking to make your corporate event unforgettable? Our DJ services are the perfect addition to any occasion, whether it’s a grand store opening, an office party, or an outdoor corporate festival. We provide tailored playlists to set the right mood, from energetic tracks for celebrations to ambient music for networking events. Need someone to manage announcements? We’ve got that covered too—introducing speakers, promoting sales, or highlighting sponsors with professionalism. With top-notch sound systems, custom lighting, and an experienced DJ who knows how to keep the energy alive, we’ll ensure your event stands out. Don’t just plan an event—create an experience your guests will never forget."
+    },
+    "birthdayEvents":{
+      "SubHeader":"🎶 Your Event, Your Soundtrack – Professional DJ Services for Every Occasion 🎶",
+      "header":"🎉 Celebrate Life’s Special Moments with Expert DJ Services 🎉",
+      "MiniHeader1":"Make your milestone celebrations unforgettable with professional DJ services that set the perfect mood for your party. Whether you’re hosting a 40th or 50th birthday, a glamorous Sweet 16, or a vibrant Quinceañera, we’ve got the music, equipment, and expertise to bring your vision to life.",
+      "MiniHeader2":"For birthday parties, we’ll create a custom soundtrack, whether it’s today’s hits or nostalgic tunes from your era—like 80s music for a 50th birthday bash. From intimate house parties to grand hotel venues, we’ll provide high-quality sound systems and microphones for toasts, speeches, and heartfelt moments.",
+      "MiniHeader3":"For Sweet 16s and Quinceañeras, we understand the importance of these once-in-a-lifetime events. We’ll curate playlists that reflect your unique taste, combining modern hits with cultural traditions. Expect an unforgettable evening filled with lively dance floors, emotional moments, and celebrations that bring everyone together.",
+      "MiniHeader4":"No matter the occasion, our experienced DJ ensures your event flows smoothly, keeping guests entertained and the energy alive. Let’s make your party a celebration to remember! "
+    },
+    "holidayEvents":{
+      "header":"🎶 Turning Moments Into Memories – Premier DJ Services for Every Event 🎶",
+      "SubHeader":"🎄🎃 Celebrate the Holidays with Expert DJ Services 🎉✨",
+      "MiniHeader1":"Bring the magic of the season to life with professional DJ services for your holiday events! From spooky Halloween parties to festive Christmas gatherings and dazzling New Year’s Eve celebrations, we’ll create the perfect soundtrack to match the occasion. With a mix of iconic holiday songs like “All I Want for Christmas is You” or “Monster Mash”, and multi-genre tracks tailored to your event, we ensure the music keeps the energy alive and guests entertained.",
+      "MiniHeader2":"Want something extra special? We can incorporate unique holiday edits of popular songs, like a Halloween version of a hit track with eerie sound effects or thunderclaps, and even use sound samples for added fun. Whether it’s a cozy party at home or a grand corporate celebration, our curated playlists and professional equipment will make your event unforgettable. Let’s turn your holiday celebration into a musical masterpiece!"
+    },
+    "nightlifeevents":{
+      "header":"🎧 Bars, Restaurants, and Nightclubs – Creating Unforgettable Nightlife Experiences 🎤✨",
+      "SubHeader":"🎶 Unleash the Night – Exceptional DJ Services for Bars, Restaurants, and Clubs 🎶",
+      "MiniHeader1":"Enhance the atmosphere of your bars, restaurants, and clubs with professional DJ services tailored to every vibe. Whether it’s a lively Sunday brunch, a post-dinner party, or a high-energy night on the dance floor, our DJs set the perfect tone for your venue.",
+      "MiniHeader2":"For bars and restaurants, we deliver open-format playlists that blend contemporary Top 40 hits with timeless classics, ensuring a seamless soundtrack that keeps guests entertained while they dine and drink. Want to add an extra layer of fun? We can even provide karaoke setups for interactive entertainment.",
+      "MiniHeader3":"For clubs, we create electrifying experiences, managing the flow of the dance floor with precision. Whether it’s a themed night focused on genres like hip hop or a high-profile event in hotspots like Las Vegas, Ibiza, or Miami, our DJs bring unmatched energy and expertise, spinning everything from the latest hits to original tracks.",
+      "MiniHeader4":"These events, often referred to as Nightlife & Entertainment DJ Services, are designed to captivate your audience and keep them coming back for more. Let’s make your venue the ultimate destination for unforgettable nights!"
+    },
+    "fitnessEvents":{
+      "header":"💪 Fuel Your Workout – High-Energy DJ Services for Gyms and Fitness Classes 🎶",
+      "SubHeader":"🎧 Power Up Your Workout – DJ Services for Gyms and Fitness Classes 💪",
+      "MiniHeader":"Keep your gym sessions pumping with live DJ services that bring energy and excitement to every workout! Whether it’s a high-intensity fitness class or a general gym session, our DJs provide the perfect mix of EDM, hip hop, and other high-energy genres to keep your members motivated and moving. From live sets during group classes to background beats that elevate the atmosphere while patrons lift weights or complete circuits, we ensure the music fuels every rep and step. Let’s make your gym a place where the beats never stop"
+    }
+  },
+  "contact": {
+    "title": "Let's Get This Party Started",
+    "intro": "Tell us about your event, and we’ll get in touch to make it unforgettable!",
+    "form": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "phone": "Phone",
+      "eventDate": "Event Date",
+      "eventLocation": "Event Location",
+      "eventTime": "Event Time",
+      "eventBudget": "Event Budget",
+      "eventType": "Type of Event",
+      "eventDetails": "Event Details",
+      "hearAboutUs": "How did you hear about us?",
+      "contactInformation": "Contact Information",
+      "eventDetailsSection": "Event Details",
+      "additionalInformation": "Additional Information",
+      "selectEventType": "Select Event Type",
+      "socialMedia": "Social Media",
+      "friendFamily": "Friend or Family",
+      "onlineSearch": "Online Search",
+      "other": "Other",
+      "selectOption": "Select Option"
+    },
+    "selectEventType": "Select an Event Type",
+    "other": "Other",
+    "events": {
+      "wedding": "Wedding",
+      "private": "Social Event",
+      "school": "School Function",
+      "corporate": "Corporate Event",
+      "holiday": "Holiday Party",
+      "nightlife": "Nightlife Event",
+      "fitness": "Fitness Party"
+    },
+    "contactInfo": {
+      "email": "DjParce.nc@gmail.com",
+      "social": {
+        "instagram": "https://www.instagram.com/dj_parce_nc/",
+        "facebook": "https://facebook.com"
+      }
+    },
+    "directContact": {
+      "title": "Contact Us Directly",
+      "email": "Email:",
+      "social": {
+        "instagram": "Follow Us on Instagram:",
+        "facebook": "Follow Us on Facebook:"
+      },
+      "submit": "Submit"
+    },
+    "modal":{
+      "Success":"Success!",
+      "Error":"Error!",
+      "sendingMessage": "Sending your message...",
+      "errorMessage": "Oops! Something went wrong. Please try again later.",
+      "successMessage": "Your Request has been sent successfully! Someone will Ccntact you shortly"
+    }
+  },
+  
+    "above": {
+      "header": {
+        "line1": "HOW WE GO ABOVE & BEYOND",
+        "line2": "TO MAKE YOUR EVENT",
+        "line3": "REMARKABLE"
+      },
+      "features": {
+        "personal": {
+          "title": "Personal",
+          "description": "You work with your DJ from the beginning of the process."
+        },
+        "prepared": {
+          "title": "Prepared",
+          "description": "We are always early and never caught off guard."
+        },
+        "experience": {
+          "title": "Experience",
+          "description": "Thousands of fun & successful events under our belt."
+        },
+        "attentive": {
+          "title": "Attentive",
+          "description": "We find out exactly what you want & make it happen."
+        }
+      }
+    },
+
+    
+      "above2": {
+        "header": {
+          "line1": "HOW WE GO ABOVE & BEYOND",
+          "line2": "TO MAKE YOUR EVENT",
+          "line3": "UNFORGETABLE"
+        },
+        "features": {
+          "collaboration": {
+            "title": "Seamless Coordination",
+            "description": "We work closely with you and all other vendors to ensure everything runs smoothly."
+          },
+          "music": {
+            "title": "Exceptional Sound Quality",
+            "description": "Our top-tier sound systems create the perfect atmosphere throughout your ceremony and reception."
+          },
+          "energy": {
+            "title": "Vibrant Energy",
+            "description": "We bring high energy to your event, keeping the crowd engaged and dancing all night."
+          },
+          "capture": {
+            "title": "Memorable Moments",
+            "description": "We ensure your special moments are captured with precision and attention to detail."
+          }
+        }
+      },
+
+    "parallel":{
+      "headerText":"Your Dream Wedding Entertainment",
+      "paragraphText":"You’ve already committed to the love of your life, now it's time to choose the DJ who will make your wedding unforgettable. After all the planning, your special day is finally here.",
+      "buttonText":"WHAT TO EXPECT"    
+    },
+
+
+    
+      "faq": {
+        "question1": "Will the DJ take requests?",
+        "answer1": "DJ Parce takes song requests and often incorporates them into the playlist. However, requests from guests are carefully filtered. If a song or genre is on your \"Do Not Play\" list, it won't be played. On the other hand, if a requested song aligns with your chosen vibe and music preferences, DJ Parce might include it. As an experienced event professional, DJ Parce understands how to energize the dance floor and avoid tracks that might not resonate with the crowd. Unlike simply playing a pre-made set, DJ Parce adjusts the music in real-time to match the energy of the audience. Additionally, an online planning system is available for you to share your music preferences and favorite songs ahead of the event, ensuring a tailored and seamless experience.",
+        
+        "question2": "Can we bring our own music for the DJ to play?",
+        "answer2": "Absolutely! Partnering with a professional wedding or event DJ, like DJ Parce, ensures your musical preferences are heard and accommodated. While flexibility is key, DJ Parce typically requests your music selections in advance to ensure seamless planning and execution. Providing your song choices ahead of time allows everything to be prepared and ready to go for your big day. That said, if you have last-minute inspirations during the event, DJ Parce can adapt and add songs on the spot, blending preparation with flexibility for a flawless experience.",
+        
+        "question3": "What are your payment terms?",
+        "answer3": "To secure DJ Parce for your event, all that's needed to get started is a deposit. This deposit reserves your date and will be applied to the final balance. The remaining amount is due two weeks before your event. To keep things simple and convenient, we accept payments through debit, credit, Venmo, or PayPal. For more details on pricing, feel free to contact us.",
+        
+        "question4": "When should I book my DJ?",
+        "answer4": "We recommend booking at least 1 month in advance, especially for peak seasons.",
+        
+        "question5": "What services do you offer?",
+        "answer5": "You can choose the songs you'd like to hear at your event, as well as those you'd prefer to avoid, directly with your DJ. The number of songs you request is entirely up to you, but we recommend providing at least 10-15 songs from different genres and artists. It's also helpful to mention any songs or artists you don't want played. If you have many song requests, just be mindful of the time constraints of your event. During your initial consultation, your DJ will discuss your music preferences to ensure everything aligns with your vision for the event.",
+    
+        "contact": {
+          "text": "Don't see yours?",
+          "header":"FREQUENTLY ASKED QUESTIONS",
+          "text1":"Get Some Answers",
+          "text2":"Here are some of our most asked questions",
+          "linkText": "Contact Us"
+        },
+        
+        "parallax": {
+          "heading": "Ready to go?",
+          "buttonText": "Let's Start",
+          "subHeading": "Still Got Questions?",
+          "buttonTextHelp": "We're Here To Help"
+        }
+      },
+
+      "feed":{
+        "Feed":"Feed",
+        "Mini":"Follow Us on Instagram"
+      }    
+
+  }

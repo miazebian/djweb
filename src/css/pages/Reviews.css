@@ -1,0 +1,104 @@
+.main-review{
+  background-color: black;
+}
+
+.main-review2{
+  background-color: var(--above-bg);
+}
+
+.review-list-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Creates two equal-width columns */
+  gap: 10%;
+  width: 50%; /* Controls the width of the container */
+  max-width: 1200px; /* Optional: Set a maximum width if you want to limit the container size */
+  margin: 0 auto; /* Centers the container horizontally */
+  padding-top: 5%;
+  padding-bottom: 5%;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+
+
+.review-column {
+  display: flex;
+  flex-direction: column;
+  gap:50px;
+}
+
+
+.review-card {
+  display: flex;
+  flex-direction: row;
+  position: relative; 
+  opacity: 0; /* Initially hidden */
+  transform: translateY(20px); /* Start with a slight translation to animate */
+  transition: opacity 0.3s ease, transform 0.3s ease; /* Smooth transition for opacity and position */
+}
+
+.review-card.visible {
+  opacity: 1; /* Fade in */
+  transform: translateY(0); /* Reset translation */
+}
+
+
+.review-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: absolute; /* Absolute positioning within the parent .review-card */
+  bottom: 15px; /* Position at the bottom */
+  left: 0px; /* Position at the left */
+}
+
+.review-details {
+  flex: 1;
+}
+
+.review-username {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.review-text {
+  margin-left: 50px;
+  font-size: 14px;
+  color: #555;
+  background: #f9f9f9;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+.arrow-down2 {
+  position: relative;
+  overflow-x: clip; /* Ensures no overflow along the horizontal axis */
+
+  width: 100%; /* Ensures the width is exactly the screen's width */
+  box-sizing: border-box; /* Prevents padding/borders from expanding the width */
+}
+
+.arrow-down2::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 50vw solid transparent; /* Adjust the left border width */
+  border-right: 50vw solid transparent; /* Adjust the right border width */
+  border-top: 125px solid black; /* Arrow color, change to your desired color */
+}
+
+
+@media (max-width:600px) {
+  .review-list-container {
+    width: 90%;
+  }
+}

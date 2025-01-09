@@ -1,0 +1,113 @@
+/* Flex container for the text and video */
+.event-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  gap: 2rem; /* Adds spacing between text and video */
+}
+
+/* Text container */
+.text-container {
+  max-width: 49%; /* Adjusts the width of the text container */
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  padding-left: 5%;
+}
+
+/* Subheader styling */
+.subheader {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+}
+
+/* Miniheader styling */
+.miniheader {
+  font-size: 1.25rem;
+  color: #555;
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+/* Video container */
+.video-container-event {
+  flex-shrink: 0; /* Prevents the video from shrinking */
+  max-width: 50%; /* Adjust the video width */
+  height: 60vh;
+}
+
+/* Wedding video styling */
+.wedding-video {
+  width: 40vw;
+  height: 60vh;
+}
+
+
+
+@media (max-width:950px) {
+ .event-box-container{
+  width: 97%;
+ }
+ .wedding-video {
+  width: auto;
+ }
+}
+
+/* Media query for small screens */
+@media (max-width: 800px) {
+  .event-header {
+    flex-direction: column; /* Stack the text and video vertically */
+    text-align: center; /* Center the text */
+    
+  }
+
+  .text-container {
+    padding-left: 0%;
+    max-width: 100%; /* Allow the text container to take full width */    
+  }
+
+  .video-container-event {
+    max-width: 100%; /* Allow the video container to take full width */
+    margin-top: 20px; /* Adds space between the text and video */
+  }
+  .wedding-video {
+    width: 100%;
+  }
+}
+
+.centered-images-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  height: 90vw;
+}
+
+.image-stack-container{
+  padding-bottom: 35vw;
+}
+
+.reverse-image-container {
+  padding-bottom: 35vw;
+}
+
+/* Simple slideshow container */
+.simple-slideshow-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  height: 300px;
+}
+
+.slideshow-image {
+  width: 100%;
+  height: 300px; /* Adjust the height as needed */
+  object-fit: cover;
+  transition: opacity 1s ease-in-out;
+}
+
+  

@@ -1,0 +1,116 @@
+/* AboutUs.css */
+.about-us-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 3%;
+  align-items: center;
+  background-color: var(--off-white);
+  flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+}
+
+.text-section {
+  flex: 1.2;
+  padding: 5%;
+}
+
+.header {
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+
+.paragraph {
+  font-size: 1.1rem;
+  padding-bottom: 3%;
+  width: 90%;
+  line-height: 1.6;
+}
+
+/* Button Styles */
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  background-color: var(--border);
+  color: var(--primary-text);
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.button-content {
+  display: inline-flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.button i,
+.button svg {
+  margin-left: 8px; /* Add some space between the text and icon */
+}
+
+.image-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+/* Image Style */
+.imageabout {
+  max-width: 100%;
+  height: auto;
+  max-height: 80vh;
+  border-radius: 8px;
+}
+
+/* Media Query for Smaller Screens */
+@media (max-width: 888px) {
+  .about-us-container {
+    flex-direction: column; /* Stack elements vertically */
+    align-items: left; /* Center the content */
+  }
+
+  .text-section {
+    padding: 5%; /* Ensure padding stays consistent on smaller screens */
+  }
+
+  .paragraph {
+    width: 100%;
+    text-align: left;
+  }
+  .image-section {
+    margin-top: 20px; /* Space between the button and the image */
+    width: 100%; /* Make sure the image takes up full width */
+  }
+
+  .button {
+    justify-content: center; /* Center the content inside the button */
+  }
+
+  .imageabout {
+    width: 90%; /* Optionally adjust image width */
+  }
+}
+
+.arrow-down1 {
+  position: relative;
+  overflow-x: clip; /* Ensures no overflow along the horizontal axis */
+
+  width: 100%; /* Ensures the width is exactly the screen's width */
+  box-sizing: border-box; /* Prevents padding/borders from expanding the width */
+}
+
+.arrow-down1::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 50vw solid transparent; /* Adjust the left border width */
+  border-right: 50vw solid transparent; /* Adjust the right border width */
+  border-top: 125px solid var(--off-white); /* Arrow color, change to your desired color */
+}

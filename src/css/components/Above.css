@@ -1,0 +1,83 @@
+.event-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 20px;
+    padding-right: 4%;
+    gap: 5%;
+    padding-left: 4%;
+    margin-top: 7%;
+    padding-top: 3%;
+    position: relative;
+    padding-bottom: 3%; /* Add padding at the bottom */
+    background-color: var(--above-bg);
+}
+
+.event-left {
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.event-left h1 {
+    font-size: 2.5rem;
+    color: var(--white-color);
+    margin-bottom: 20px;
+    text-align: center;
+    flex-wrap: nowrap;
+    line-height: 1.5; /* Adjust for spacing between lines */
+    word-wrap: break-word; /* Allow words to break and wrap to the next line */
+}
+
+.event-right {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    gap: 20px; /* Space between cards */
+}
+
+.feature-card {
+    background: var(--white-color);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 5%;
+    padding-top: 8%;
+    word-wrap: break-word; /* Prevents words from overflowing */
+    overflow-wrap: break-word; /* Ensures long words break and wrap in cards */
+}
+
+.feature-icon {
+    margin-bottom: 10px;
+}
+
+.feature-title {
+    font-size: 1.2rem;
+    color: var(--above-text);
+    margin-bottom: 8px;
+    word-wrap: break-word; /* Allow wrapping of long words */
+}
+
+.feature-description {
+    font-size: 0.9rem;
+    color: var(--above-desc);
+    word-wrap: break-word; /* Wraps long words if needed */
+}
+
+@media (max-width: 880px) {
+    .event-container {
+        flex-direction: column;
+    }
+
+    .event-right {
+        grid-template-columns: 1fr; /* One column on smaller screens */
+        align-self: center;
+        margin-bottom: 4%;
+    }
+
+    .event-left {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+}

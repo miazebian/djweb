@@ -1,0 +1,92 @@
+.faq-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5%;
+  border-radius: 8px;
+  background-color: var(--off-white);
+}
+
+
+.inline-text1, .contact-link1 {
+  display: inline; /* Makes the elements appear on the same line */
+  margin-right: 2px; /* Add space between them */
+}
+
+.contact-link1 {
+  color: var(--primary-text); /* Initial color */
+  cursor: pointer; /* Indicate that it's clickable */
+  text-decoration: none; /* Remove underline by default */
+  color: var(--border); /* Change color to orange on hover */
+
+}
+
+.contact-link1:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+.faq-container div h1{
+  margin:0px;
+  padding: 0px;
+}
+
+.faq-text{
+  padding-bottom:2%;
+  text-align: center;
+}
+
+.faq-columns {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 20px;
+}
+
+.faq-column {
+  flex: 1; /* Equal width for both columns */
+  display: flex;
+  flex-direction: column; /* Stack items vertically in each column */
+}
+
+.faq-item {
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.faq-question {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--above-text);
+}
+
+.faq-toggle {
+  font-size: 22px;
+  color: var(--above-text);
+  padding-right: 4%;
+}
+
+.faq-answer {
+  margin-top: 10px;
+  font-size: 16px;
+  color: var(--above-desc);
+  padding-left: 20px;
+}
+
+.faq-divider {
+  border: 0;
+  border-top: 1px solid var(--copyright-text);
+}
+
+@media (max-width: 768px) {
+  .faq-columns {
+    flex-direction: column; /* Switch to a single column layout */
+  }
+  .faq-question {
+    font-size: 14;
+  }
+  .faq-answer {
+    font-size: 12px;
+  }
+}

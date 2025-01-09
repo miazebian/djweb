@@ -1,0 +1,55 @@
+.feed-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--off-white);
+  }
+  
+  .feed-title {
+    font-size: 4rem;
+    margin-bottom: 0px;
+    margin-top: 5rem;
+    color: var(--primary-text-color); /* Customize this variable or use your preferred color */
+  }
+
+  .feed-mini{
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+  }
+
+  /* Wrap your iframe in a container */
+.iframe-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+iframe.lightwidget-widget{
+  height: 20vh;
+}
+
+@media (max-width: 600px) {
+  .iframe-container {
+    position: relative;
+    width: 100%;
+    height: 39vh; /* Adjust height as needed */
+    overflow: hidden;
+  }
+  
+  .iframe-container iframe {
+    width: 100%;
+    height: 39vh;
+    border: none;
+  }
+  .feed-title {
+    font-size: 2rem;
+  }
+
+  .feed-mini{
+    font-size: 1rem;
+}
+}
+
+  

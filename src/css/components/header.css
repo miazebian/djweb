@@ -1,0 +1,108 @@
+/* header.css */
+@import '../../App.css';
+
+/* General Styles */
+
+header {
+  padding: 1.2%;
+  padding-right: 0.7%;
+  background-color: var(--primary-bg);
+  color: var(--primary-text);
+  display: flex;
+  justify-content: space-between; /* Space between the company name and navigation */
+  align-items: center;
+
+  position: sticky; /* Sticky header */
+  top: 0;
+  z-index: 1000; /* Make sure it's above other content */
+}
+
+.buttonLangauge {
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid var(--primary-text);
+  color: var(--primary-text);
+  margin: 0 15px;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: transparent;
+  padding: 0.5rem;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.cursive-text {
+  font-family: 'Brush Script MT', cursive; /* Using cursive font */
+  font-size: 1.5em;
+  margin-right: 20px;
+}
+
+/* Navigation Links */
+.nav-links {
+  display: flex;
+  justify-content: flex-end; /* Align the items to the right */
+  gap: 20px;
+  flex-grow: 1; /* Ensure the nav takes up available space */
+}
+
+nav a {
+  color: var(--primary-text);
+  text-decoration: none;
+}
+
+nav div :link {
+  cursor: pointer;
+  border-radius: 5px;
+  color: var(--primary-text);
+  margin: 0 15px;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: transparent;
+  padding: 0.5rem;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+/* Mobile Menu */
+.menu-toggle {
+  display: none;
+  font-size: 2em;
+  background: none;
+  border: none;
+  color: var(--primary-text);
+  cursor: pointer;
+  margin-left: auto; /* Pushes the menu toggle to the right */
+}
+
+/* Responsive Styles */
+@media (max-width: 1000px) {
+  .nav-links {
+    display: none; /* Hide navigation links on small screens */
+    flex-direction: column;
+    width: 100%;
+    background-color: var(--primary-bg);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .nav-links.open {
+    display: flex;
+    justify-content: center; /* Centers the buttons horizontally */
+    align-items: center; /* Centers the buttons vertically */
+    height: 100%; /* Take up the entire height of the screen */
+    z-index: 10;
+  }
+
+  .menu-toggle {
+    display: block;
+    z-index: 10;
+  }
+}

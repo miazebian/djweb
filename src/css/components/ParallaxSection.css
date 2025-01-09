@@ -1,0 +1,115 @@
+.parallax-container {
+    position: relative;
+    height: 100vh; /* Full viewport height */
+    overflow:hidden;
+  }
+  
+  .parallax-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Creates the parallax effect */
+    z-index: -1; /* Keeps the image behind the content */
+    filter: brightness(50%);
+  }
+  
+  .parallax-text {
+    width: 90%;
+    position: relative;
+    top: 50%; /* Vertically center text */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--white-color);
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    z-index: 1; /* Place text above the image */
+  }
+  
+  .parallax-text h1 {
+    font-size: 4rem; /* Header font size */
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .parallax-text p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+  }
+  .parallax-text button {
+    background-color: var(--above-text); /* Button background color */
+    color: var(--white-color);
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    display: inline-flex; /* Use flexbox to align items */
+    align-items: center; /* Vertically center the items */
+    justify-content: center; /* Horizontally center the items */
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    
+  }
+  
+  .parallax-text button:hover {
+    background-color: var(--above-desc); /* Button hover color */
+  }
+  
+  .parallax-text button svg {
+    margin-left: 10px; /* Add space between icon and text */
+  }
+  
+  
+  @media (max-width: 880px) {
+    .parallax-text h1 {
+      font-size: 3rem;
+    }
+  
+    .parallax-text p {
+      font-size: 1.1rem;
+    }
+  
+    .parallax-text button {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .parallax-text h1 {
+      font-size: 2rem;
+    }
+  
+    .parallax-text p {
+      font-size: 1rem;
+    }
+  
+    .parallax-text button {
+      font-size: 0.8rem;
+    }
+  }
+  
+
+  @media only screen and (max-width: 768px) {
+    /* These media queries target only iPhones (e.g., iPhone 6/7/8 and later) */
+    .parallax-container1 {
+      position: relative;
+      height: 80vh; /* Full viewport height */
+      overflow:hidden;
+    }
+    .parallax-image1 {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 80vh;
+      background-size: cover;
+      background-position: center;
+      background-attachment:scroll; /* Creates the parallax effect */
+      z-index: -1; /* Keeps the image behind the content */
+      filter: brightness(50%);
+    }
+  }
