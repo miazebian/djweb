@@ -20,21 +20,187 @@ function Contact() {
     eventType: "",
     eventDetails: "",
     hearAboutUs: "",
+    services: ["dj"], // Default value with 'dj' selected
+    serviceDetails: "", // Non-required field for additional service details
+    chairType: '',
+    tableType: '',
+    chairCount: 0,
+    tableCount: 0,
+    barGuests: 0,
+    alcoholTypes: [],
+    customAlcoholType: '',
+    tentSize: "",
+  customTentSize: "",
+  tentCount: "",
+  meats: [], // Array of selected meats
+  salads: [], // Array of selected salads
+  appetizers: [], // Array of selected appetizers
+  desserts: [], // Array of selected desserts
+  customMenu: "", // Custom menu text if undecided
   });
 
+
+  
   const [isLoading, setIsLoading] = useState(false); // To track loading state
 const [modalMessage, setModalMessage] = useState(""); // To show message in modal
 const [modalType, setModalType] = useState(""); // To track success or error type
 const [isModalOpen, setIsModalOpen] = useState(false); // To manage modal visibility
 
+const handleChange = (e) => {
+  const { name, value, type, checked, options } = e.target;
 
-  const handleChange = (e) => {
-    const { name, value, type, checked } = e.target;
-    setFormData({
-      ...formData,
-      [name]: type === "checkbox" ? checked : value,
+  if (name === "services") {
+    const selectedServices = Array.from(options)
+      .filter(option => option.selected)
+      .map(option => option.value);
+
+    setFormData(prevFormData => {
+      const newServices = prevFormData.services.includes(value)
+        ? prevFormData.services.filter(service => service !== value)
+        : [...prevFormData.services, value];
+
+      return { ...prevFormData, [name]: newServices };
     });
-  };
+  } else if (name === 'alcoholTypes') {
+    const selectedAlcoholTypes = Array.from(options)
+      .filter(option => option.selected)
+      .map(option => option.value);
+
+    setFormData(prevFormData => {
+      const newAlcoholTypes = prevFormData.alcoholTypes.includes(value)
+        ? prevFormData.alcoholTypes.filter(alcoholType => alcoholType !== value)
+        : [...prevFormData.alcoholTypes, value];
+
+      return { ...prevFormData, [name]: newAlcoholTypes };
+    });
+  } else if (name === "meats") {
+    const selectedMeats = Array.from(options)
+      .filter(option => option.selected)
+      .map(option => option.value);
+
+    setFormData(prevFormData => {
+      const newMeats = prevFormData.meats.includes(value)
+        ? prevFormData.meats.filter(meat => meat !== value)
+        : [...prevFormData.meats, value];
+
+      return { ...prevFormData, [name]: newMeats };
+    });
+  } else if (name === "salads") {
+    const selectedSalads = Array.from(options)
+      .filter(option => option.selected)
+      .map(option => option.value);
+
+    setFormData(prevFormData => {
+      const newSalads = prevFormData.salads.includes(value)
+        ? prevFormData.salads.filter(salad => salad !== value)
+        : [...prevFormData.salads, value];
+
+      return { ...prevFormData, [name]: newSalads };
+    });
+  } else if (name === "appetizers") {
+    const selectedAppetizers = Array.from(options)
+      .filter(option => option.selected)
+      .map(option => option.value);
+
+    setFormData(prevFormData => {
+      const newAppetizers = prevFormData.appetizers.includes(value)
+        ? prevFormData.appetizers.filter(appetizer => appetizer !== value)
+        : [...prevFormData.appetizers, value];
+
+      return { ...prevFormData, [name]: newAppetizers };
+    });
+  } else if (name === "desserts") {
+    const selectedDesserts = Array.from(options)
+      .filter(option => option.selected)
+      .map(option => option.value);
+
+    setFormData(prevFormData => {
+      const newDesserts = prevFormData.desserts.includes(value)
+        ? prevFormData.desserts.filter(dessert => dessert !== value)
+        : [...prevFormData.desserts, value];
+
+      return { ...prevFormData, [name]: newDesserts };
+    });
+  } else if (name.startsWith("chairs.")) {
+    const [category, field] = name.split(".");
+
+    setFormData(prevFormData => ({
+      ...prevFormData,
+      [category]: {
+        ...prevFormData[category],
+        [field]: value
+      }
+    }));
+  } else if (name === "tentSize" || name === "tentCount" || name === "customTentSize") {
+    setFormData(prevFormData => ({
+      ...prevFormData,
+      [name]: value
+    }));
+  } else if (name === "catering" && (value === "Other" || value === "Undecided")) {
+    setFormData(prevFormData => ({
+      ...prevFormData,
+      [name]: value,
+      customMenu: "" // Reset the custom menu field
+    }));
+  } else {
+    setFormData(prevFormData => ({
+      ...prevFormData,
+      [name]: type === "checkbox" ? checked : value
+    }));
+  }
+};
+
+
+
+const generateEmailBody = () => {
+  return `
+    <h3>Contact Form Submission</h3>
+    <p><strong>First Name:</strong> ${formData.firstName}</p>
+    <p><strong>Last Name:</strong> ${formData.lastName}</p>
+    <p><strong>Email:</strong> ${formData.email}</p>
+    <p><strong>Phone:</strong> ${formData.phone}</p>
+    <p><strong>Event Date:</strong> ${formData.eventDate}</p>
+    <p><strong>Event Location:</strong> ${formData.eventLocation}</p>
+    <p><strong>Event Time:</strong> ${formData.eventTime}</p>
+    <p><strong>Event Budget:</strong> ${formData.eventBudget}</p>
+    <p><strong>Event Type:</strong> ${formData.eventType}</p>
+    <p><strong>Event Details:</strong> ${formData.eventDetails}</p>
+    <p><strong>How did you hear about us?</strong> ${formData.hearAboutUs}</p>
+    <p><strong>Selected Services:</strong> ${formData.services.join(', ')}</p>
+    
+    ${formData.services.includes("chairs") ? `
+      <p><strong>Chair Type:</strong> ${formData.chairType || "Not specified"}</p>
+      <p><strong>Number of Chairs:</strong> ${formData.chairCount || "Not specified"}</p>
+    ` : ""}
+    
+    ${formData.services.includes("chairs") ? `
+      <p><strong>Table Type:</strong> ${formData.tableType || "Not specified"}</p>
+      <p><strong>Number of Tables:</strong> ${formData.tableCount || "Not specified"}</p>
+    ` : ""}
+    
+    ${formData.services.includes("tents") ? `
+      <p><strong>Tent Size:</strong> ${formData.tentSize || "Not specified"}</p>
+      ${formData.tentSize === "Other" ? `<p><strong>Custom Tent Size:</strong> ${formData.customTentSize || "Not specified"}</p>` : ""}
+      <p><strong>Number of Tents:</strong> ${formData.tentCount || "Not specified"}</p>
+    ` : ""}
+    
+    ${formData.services.includes("alcohol") ? `
+      <p><strong>Alcohol Types:</strong> ${formData.alcoholTypes.length > 0 ? formData.alcoholTypes.join(", ") : "Not specified"}</p>
+    ` : ""}
+    
+      ${formData.services.includes("catering") ? `
+      <p><strong>Meats:</strong> ${formData.meats.length > 0 ? formData.meats.join(", ") : "Not specified"}</p>
+      <p><strong>Salads:</strong> ${formData.salads.length > 0 ? formData.salads.join(", ") : "Not specified"}</p>
+      <p><strong>Appetizers:</strong> ${formData.appetizers.length > 0 ? formData.appetizers.join(", ") : "Not specified"}</p>
+      <p><strong>Desserts:</strong> ${formData.desserts.length > 0 ? formData.desserts.join(", ") : "Not specified"}</p>
+      ${formData.customMenu && formData.customMenu !== "" ? `<p><strong>Custom Menu:</strong> ${formData.customMenu}</p>` : ""}
+    ` : ""}
+
+    <p><strong>Additional Service Details:</strong> ${formData.serviceDetails || "Not specified"}</p>
+  `;
+};
+
+
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -43,20 +209,8 @@ const [isModalOpen, setIsModalOpen] = useState(false); // To manage modal visibi
     setModalType("loading");
     setModalMessage(t("contact.modal.sendingMessage"));
   
-    const emailBody = `
-      <h3>Contact Form Submission</h3>
-      <p><strong>First Name:</strong> ${formData.firstName}</p>
-      <p><strong>Last Name:</strong> ${formData.lastName}</p>
-      <p><strong>Email:</strong> ${formData.email}</p>
-      <p><strong>Phone:</strong> ${formData.phone}</p>
-      <p><strong>Event Date:</strong> ${formData.eventDate}</p>
-      <p><strong>Event Location:</strong> ${formData.eventLocation}</p>
-      <p><strong>Event Time:</strong> ${formData.eventTime}</p>
-      <p><strong>Event Budget:</strong> ${formData.eventBudget}</p>
-      <p><strong>Event Type:</strong> ${formData.eventType}</p>
-      <p><strong>Event Details:</strong> ${formData.eventDetails}</p>
-      <p><strong>How did you hear about us?</strong> ${formData.hearAboutUs}</p>
-    `;
+    const emailBody = generateEmailBody();
+
   
     // Prepare data for Sendinblue API
     const requestBody = {
@@ -253,9 +407,390 @@ const [isModalOpen, setIsModalOpen] = useState(false); // To manage modal visibi
                     required
                   />
                 </label>
+
+                <label className="form-label">
+  <span className="label-text">
+    {t("contact.form.services")}:
+  </span>
+  <select
+    name="services"
+    multiple
+    required
+    value={formData.services}
+    onChange={handleChange}
+  >
+    <option value="dj">{t("contact.form.dj")}</option>
+    <option value="venues">{t("contact.form.venues")}</option>
+    <option value="catering">{t("contact.form.catering")}</option>
+    <option value="bar">{t("contact.form.bar")}</option>
+    <option value="chairs">{t("contact.form.chairs")}</option>
+    <option value="tents">{t("contact.form.tents")}</option>
+  </select>
+</label>
+
+
+
+
+<div>
+{formData.services.includes("chairs") && (
+<div className="form-section">
+
+    <h3>{t("contact.form.chairs")}</h3>
+    
+    {/* Chair Type Dropdown */}
+    <label className="form-label">
+      <span className="label-text">
+        {t("contact.form.selectChairType")} <span className="required">*</span>:
+      </span>
+      <select name="chairType" value={formData.chairType} onChange={handleChange} required>
+        <option value="">{t("contact.form.selectChairType")}</option>
+        <option value="Chiavari">{t("contact.form.chiavariChairs")}</option>
+        <option value="Barstools">{t("contact.form.barstools")}</option>
+        <option value="Folding">{t("contact.form.foldingChairs")}</option>
+        <option value="Kids Seating">{t("contact.form.kidsSeating")}</option>
+        <option value="Undecided">{t("contact.form.undecided")}</option>
+        <option value="Other">{t("contact.form.other")}</option>
+      </select>
+    </label>
+
+    {/* If "Other" is selected, show custom input */}
+    {formData.chairType === "Other" && (
+      <label className="form-label">
+        <span className="label-text">
+          {t("contact.form.specifyChairType")} <span className="required">*</span>:
+        </span>
+        <input
+          type="text"
+          name="customChairType"
+          value={formData.chairType}
+          onChange={handleChange}
+          required
+        />
+      </label>
+    )}
+
+    {/* Number of Chairs */}
+    <label className="form-label">
+      <span className="label-text">
+        {t("contact.form.numberOfChairs")}:
+      </span>
+      <input
+        type="number"
+        name="chairCount"
+        value={formData.chairCount}
+        onChange={handleChange}
+        min="0"
+      />
+    </label>
+  </div>
+)}
+  {/* Tables Section */}
+  {formData.services.includes("chairs") && (
+    <div className="form-section">
+      <h3>{t("contact.form.tables")}</h3>
+    
+      {/* Table Type Dropdown */}
+      <label className="form-label">
+        <span className="label-text">
+          {t("contact.form.selectTableType")} <span className="required">*</span>:
+        </span>
+        <select name="tableType" value={formData.tableType} onChange={handleChange} required>
+          <option value="">{t("contact.form.selectTableType")}</option>
+          <option value="Round Pedestal">{t("contact.form.roundPedestal")}</option>
+          <option value="Pedestal">{t("contact.form.pedestal")}</option>
+          <option value="Kid-Friendly">{t("contact.form.kidFriendlySeating")}</option>
+          <option value="Farm Tables">{t("contact.form.farmTables")}</option>
+          <option value="Picnic Tables">{t("contact.form.picnicTables")}</option>
+          <option value="Rectangular">{t("contact.form.rectangular")}</option>
+          <option value="Conference Tables">{t("contact.form.conferenceTables")}</option>
+          <option value="Serpentine Tables">{t("contact.form.serpentineTables")}</option>
+          <option value="Bar-height Table Tops">{t("contact.form.barHeightTables")}</option>
+          <option value="Other">{t("contact.form.other")}</option>
+        </select>
+      </label>
+
+      {/* If "Other" is selected, show custom input */}
+      {formData.tableType === "Other" && (
+        <label className="form-label">
+          <span className="label-text">
+            {t("contact.form.specifyTableType")} <span className="required">*</span>:
+          </span>
+          <input
+            type="text"
+            name="customTableType"
+            value={formData.tableType}
+            onChange={handleChange}
+            required
+          />
+        </label>
+      )}
+
+      {/* Number of Tables */}
+      <label className="form-label">
+        <span className="label-text">
+          {t("contact.form.numberOfTables")}:
+        </span>
+        <input
+          type="number"
+          name="tableCount"
+          value={formData.tableCount}
+          onChange={handleChange}
+          min="0"
+        />
+      </label>
+    </div>
+  )}
+
+{/* Tables Section */}
+{formData.services.includes("bar") && (
+  <div className="form-section">
+    <h3>{t("contact.form.bar")}</h3>
+
+    {/* Number of Guests (Optional) */}
+    <label className="form-label">
+      <span className="label-text">
+        {t("contact.form.numberOfGuests")}: 
+      </span>
+      <input
+        type="number"
+        name="barGuests"
+        value={formData.barGuests}
+        onChange={handleChange}
+      />
+    </label>
+
+    {/* Alcohol Types Dropdown */}
+    <label className="form-label">
+      <span className="label-text">
+        {t("contact.form.selectAlcoholTypes")} <span className="required">*</span>:
+      </span>
+      <select
+        name="alcoholTypes"
+        value={formData.alcoholTypes}
+        onChange={handleChange}
+        required
+        multiple
+      >
+        <option value="">{t("contact.form.selectAlcoholTypes")}</option>
+        <option value="Beer">{t("contact.form.beer")}</option>
+        <option value="Wine">{t("contact.form.wine")}</option>
+        <option value="Whiskey">{t("contact.form.whiskey")}</option>
+        <option value="Vodka">{t("contact.form.vodka")}</option>
+        <option value="Rum">{t("contact.form.rum")}</option>
+        <option value="Gin">{t("contact.form.gin")}</option>
+        <option value="Other">{t("contact.form.other")}</option>
+      </select>
+    </label>
+
+    {/* If "Other" is selected, show custom input */}
+    {formData.alcoholTypes.includes("Other") && (
+      <label className="form-label">
+        <span className="label-text">
+          {t("contact.form.specifyAlcoholType")} <span className="required">*</span>:
+        </span>
+        <input
+          type="text"
+          name="customAlcoholType"
+          value={formData.customAlcoholType}
+          onChange={handleChange}
+          required
+        />
+      </label>
+    )}
+  </div>
+)}
+
+{/* Tents Section */}
+{formData.services.includes("tents") && (
+  <div className="form-section">
+    <h3>{t("contact.form.tents")}</h3>
+
+    {/* Tent Size Dropdown */}
+    <label className="form-label">
+      <span className="label-text">
+        {t("contact.form.selectTentSize")}:
+      </span>
+      <select
+        name="tentSize"
+        value={formData.tentSize}
+        onChange={handleChange}
+      >
+        <option value="">{t("contact.form.selectTentSize")}</option>
+        <option value="Small">{t("contact.form.small")}</option>
+        <option value="Medium">{t("contact.form.medium")}</option>
+        <option value="Large">{t("contact.form.large")}</option>
+        <option value="Other">{t("contact.form.other")}</option>
+      </select>
+    </label>
+
+    {/* If "Other" is selected, show custom input */}
+    {formData.tentSize === "Other" && (
+      <label className="form-label">
+        <span className="label-text">
+          {t("contact.form.specifyTentSize")}:
+        </span>
+        <input
+          type="text"
+          name="customTentSize"
+          value={formData.customTentSize}
+          onChange={handleChange}
+        />
+      </label>
+    )}
+
+    {/* Number of Tents */}
+    <label className="form-label">
+      <span className="label-text">
+        {t("contact.form.numberOfTents")}:
+      </span>
+      <input
+        type="number"
+        name="tentCount"
+        value={formData.tentCount}
+        onChange={handleChange}
+        min="0"
+      />
+    </label>
+  </div>
+)}
+
+{/* Catering Section */}
+{formData.services.includes("catering") && (
+  <div className="form-section">
+    <h3>{t("contact.form.catering")}</h3>
+
+    {/* Meats Dropdown */}
+    <label className="form-label">
+      <span className="label-text">
+        {t("contact.form.selectMeats")}:
+      </span>
+      <select
+        name="meats"
+        value={formData.meats}
+        onChange={handleChange}
+        multiple
+      >
+        <option value="Chicken">{t("contact.form.chicken")}</option>
+        <option value="Beef">{t("contact.form.beef")}</option>
+        <option value="Pork">{t("contact.form.pork")}</option>
+        <option value="Fish">{t("contact.form.fish")}</option>
+        <option value="Lamb">{t("contact.form.lamb")}</option>
+        <option value="Turkey">{t("contact.form.turkey")}</option>
+        <option value="Duck">{t("contact.form.duck")}</option>
+        <option value="Other">{t("contact.form.other")}</option>
+      </select>
+    </label>
+
+    {/* Salads Dropdown */}
+    <label className="form-label">
+      <span className="label-text">
+        {t("contact.form.selectSalads")}:
+      </span>
+      <select
+        name="salads"
+        value={formData.salads}
+        onChange={handleChange}
+        multiple
+      >
+        <option value="Caesar Salad">{t("contact.form.caesarSalad")}</option>
+        <option value="Greek Salad">{t("contact.form.greekSalad")}</option>
+        <option value="Coleslaw">{t("contact.form.coleslaw")}</option>
+        <option value="Caprese Salad">{t("contact.form.capreseSalad")}</option>
+        <option value="Potato Salad">{t("contact.form.potatoSalad")}</option>
+        <option value="Pasta Salad">{t("contact.form.pastaSalad")}</option>
+        <option value="Other">{t("contact.form.other")}</option>
+      </select>
+    </label>
+
+    {/* Appetizers Dropdown */}
+    <label className="form-label">
+      <span className="label-text">
+        {t("contact.form.selectAppetizers")}:
+      </span>
+      <select
+        name="appetizers"
+        value={formData.appetizers}
+        onChange={handleChange}
+        multiple
+      >
+        <option value="Bruschetta">{t("contact.form.bruschetta")}</option>
+        <option value="Spring Rolls">{t("contact.form.springRolls")}</option>
+        <option value="Cheese Platter">{t("contact.form.cheesePlatter")}</option>
+        <option value="Stuffed Mushrooms">{t("contact.form.stuffedMushrooms")}</option>
+        <option value="Mini Quiches">{t("contact.form.miniQuiches")}</option>
+        <option value="Meatballs">{t("contact.form.meatballs")}</option>
+        <option value="Other">{t("contact.form.other")}</option>
+      </select>
+    </label>
+
+    {/* Desserts Dropdown */}
+    <label className="form-label">
+      <span className="label-text">
+        {t("contact.form.selectDesserts")}:
+      </span>
+      <select
+        name="desserts"
+        value={formData.desserts}
+        onChange={handleChange}
+        multiple
+      >
+        <option value="Chocolate Cake">{t("contact.form.chocolateCake")}</option>
+        <option value="Fruit Tart">{t("contact.form.fruitTart")}</option>
+        <option value="Ice Cream">{t("contact.form.iceCream")}</option>
+        <option value="Cheesecake">{t("contact.form.cheesecake")}</option>
+        <option value="Brownies">{t("contact.form.brownies")}</option>
+        <option value="Cupcakes">{t("contact.form.cupcakes")}</option>
+        <option value="Other">{t("contact.form.other")}</option>
+      </select>
+    </label>
+
+    {/* Custom Menu if "Other" is selected */}
+    {(formData.meats.includes("Other") || formData.salads.includes("Other") ||
+    formData.appetizers.includes("Other") ||
+      formData.desserts.includes("Other")) && (
+      <label className="form-label">
+        <span className="label-text">
+          {t("contact.form.customMenu")}:
+        </span>
+        <textarea
+          name="customMenu"
+          value={formData.customMenu}
+          onChange={handleChange}
+          placeholder={t("contact.form.customMenuPlaceholder")}
+        />
+      </label>
+    )}
+  </div>
+)}
+
+
+
+
+</div>
+
+
+<label className="form-label">
+  <span className="label-text">
+    {t("contact.form.serviceDetails")}:
+  </span>
+  <textarea
+    name="serviceDetails"
+    value={formData.serviceDetails}
+    onChange={handleChange}
+  />
+</label>
+
+
               </div>
               <div className="form-section">
                 <h2>{t("contact.form.additionalInformation")}</h2>
+
+
+
+
+
+
+ 
                 <label className="form-label">
                   <span className="label-text">{t("contact.form.hearAboutUs")}:</span>
                   <select
