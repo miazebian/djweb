@@ -4,6 +4,7 @@
     "home": "Inicio",
     "about": "Sobre Nosotros",
     "reviews": "Reseñas",
+    "packages": "Paquetes",
     "events": "Eventos",
     "contact": "Contáctanos",
     "faq":"Preguntas Frecuentes",
@@ -25,9 +26,9 @@
   "home": {
     "welcome": "¡Bienvenido a la Página de Inicio!",
     "header": "¡Llevamos la vibra y la música a tu evento!",
-"services": "Bodas . Eventos Corporativos . Fiestas de Fin de Año .\n Cumpleaños . Eventos Sociales . Eventos Escolares .\n Eventos Nocturnos . Fiestas de Fitness",
-    "book": "Reserva tu Evento"
-  },
+"services": "Bodas . Eventos Corporativos . Fiestas Navideñas .\n Cumpleaños . Eventos Sociales . Eventos Escolares .\n Lugares . Catering . Barra",
+"book": "Reserva Tu Paquete"
+},
   "about": {
     "title": "Sobre Nosotros",
     "description": "¡Nos apasiona crear aplicaciones!",
@@ -317,7 +318,67 @@
   "Feed": "Alimentación",
   "Mini": "Síguenos en Instagram"
 
+},
+"packages":{
+"description": "Nuestros paquetes están diseñados para ofrecerte flexibilidad y comodidad, ya sea que estés planeando una reunión pequeña o un gran evento. Elige entre una variedad de servicios como DJs, catering, bartending y más. Combina y personaliza las opciones para crear la experiencia perfecta que se adapte a tus necesidades, o elige servicios individuales como contratar a un DJ profesional para crear el ambiente ideal. Ya sea una boda, un evento corporativo o una fiesta privada, nuestros paquetes personalizables aseguran que tu visión se haga realidad de manera perfecta.",
+ "section1": "Eventos",
+"section2": "Servicios",
+"packagecont": {
+  "header": "EVENTOS Y SERVICIOS",
+  "header1":"Eventos Y Servicios"
+},
+"footer":{
+  "packages":"Paquetes",
+  "services":"Servicios",
+  "events":"Eventos"
 }
+
+},
+
+
+"services": {
+  "header": "¡Combinaciones de opciones para hacer realidad tu visión sin esfuerzo!",
+  "parallax": "✨ ¿LISTO PARA COMENZAR? ✨",
+  "servicesmain": {
+    "header": "Nuestros Servicios",
+    "description": "Explora nuestra amplia gama de servicios diseñados para satisfacer las necesidades de tu evento, desde DJs y catering hasta bartending y más. Si hay algo que no ves listado, no dudes en contactarnos y haremos todo lo posible para acomodar tu solicitud.",
+    "desc2": "✨ Soluciones Completas para Eventos – Sillas, Mesas, Carpas, Catering, Bartending y Más. ✨",
+    "options": {
+      "dj": "Entretenimiento DJ",
+      "venues": "Lugares",
+      "catering": "Catering",
+      "bar": "Bartendering",
+      "chairs": "Sillas y Mesas",
+      "tents": "Carpas"
+    }
+  },
+  "venues": {
+    "header": "🏰 Celebra con Estilo – Impresionantes Lugares para Cada Ocasión ✨",
+    "SubHeader": "🌟 Tu Lugar Perfecto Te Espera – Servicios de Expertos para Cualquier Ocasión 🌟",
+    "MiniHeader": "Déjanos ayudarte a encontrar el lugar ideal para tu próximo evento, ya sea una boda, reunión corporativa, celebración de un hito o un encuentro íntimo. Nos especializamos en conectarte con lugares que se adaptan a tus necesidades únicas, ofreciendo recomendaciones personalizadas basadas en tu estilo y preferencias. Desde elegantes salones de baile hasta encantadores espacios al aire libre, nuestro equipo se asegura de que cada detalle esté adaptado para hacer de tu evento un éxito. Confía en nosotros para encontrar el lugar perfecto que dé vida a tu visión y haga de tu ocasión algo inolvidable."
+  },
+  "catering": {
+    "header": "🍽️ Catering Personalizado para Cada Evento – Comida Excepcional, Experiencias Inolvidables 🍽️",
+    "SubHeader": "🍴 Catering Que Eleva Tu Evento – Menús Deliciosos y Personalizados para Cada Ocasión 🍴",
+    "MiniHeader": "No importa el evento, ya sea una boda, reunión corporativa, celebración de un hito o fiesta íntima, nuestros servicios de catering están diseñados para impresionar. Trabajamos estrechamente contigo para crear un menú personalizado que refleje tus gustos y se ajuste a las necesidades de tus invitados. Ya sea que visualices una cena formal, un bufé relajado o aperitivos creativos, nuestro equipo asegura una experiencia gastronómica impecable de principio a fin. Déjanos encargarnos de la comida para que puedas concentrarte en disfrutar de tu ocasión especial, con cada plato elaborado a la perfección."
+  },
+  "bar": {
+    "SubHeader": "🍹 Servicios Profesionales de Bartender para Cada Ocasión – Servicio Excepcional, Bebidas Inolvidables 🍹",
+    "header": "🍸 Servicios Expertos de Bartender – Creando Bebidas Perfectas para Cada Evento 🍸",
+    "MiniHeader": "No importa la ocasión, nuestros servicios de bartender elevarán tu evento con bebidas perfectamente elaboradas y un servicio excepcional. Desde cócteles exclusivos hasta favoritos clásicos, nuestros bartenders profesionales aseguran que tus invitados disfruten de una experiencia memorable con cada sorbo. Déjanos encargarnos de la barra, brindando un servicio fluido y un menú de bebidas personalizado que se ajuste al estilo y ambiente de tu evento. ¡Celebra con estilo con nuestros servicios de bartending de primer nivel que mantienen las bebidas fluyendo y la fiesta viva!"
+  },
+  "chairs": {
+    "header": "🪑 Todo Perfectamente Colocado – Alquiler Premium de Sillas y Mesas para Cada Ocasión 🪑",
+    "SubHeader": "🪑 Sillas y Mesas de Calidad para Cada Evento – Alquileres Elegantes que se Adaptan a Tus Necesidades 🪑",
+    "MiniHeader": "Transforma el espacio de tu evento con nuestros alquileres premium de sillas y mesas, diseñados para adaptarse a cualquier ocasión. Ya sea una boda, reunión corporativa o celebración privada, ofrecemos una amplia selección de muebles que combinan funcionalidad con elegancia. Nuestro equipo asegura una entrega oportuna y una instalación adecuada, creando el ambiente perfecto para que tus invitados disfruten. Confía en nosotros para proporcionar las piezas adecuadas que mejoren la atmósfera y hagan de tu evento algo cómodo e inolvidable."
+  },
+  "tents": {
+    "SubHeader": "⛺️ Alquileres de Carpas Confiables – Perfectas para Cualquier Evento, Llueva o Haga Sol ⛺️",
+    "header": "⛺️ Alquiler de Carpas para Cada Evento – Comodidad y Estilo, Llueva o Haga Sol ⛺️",
+    "MiniHeader": "No importa el clima, nuestros alquileres de carpas de alta calidad ofrecen la solución ideal para cualquier evento. Desde bodas y reuniones corporativas hasta celebraciones al aire libre, ofrecemos una variedad de carpas que se adaptan a tu espacio y estilo. Diseñadas para comodidad y durabilidad, nuestras carpas protegen a tus invitados de los elementos mientras crean un ambiente acogedor. Déjanos encargarnos de la instalación para que puedas disfrutar de un evento sin interrupciones, llueva o haga sol, con una carpa que combine funcionalidad y estilo."
+  }
+}
+
 
 
 }

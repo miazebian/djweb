@@ -47,7 +47,7 @@ const Header = () => {
           <Link to="/" onClick={closeMenu}>{t("header.home")}</Link>
           <Link to="/about" onClick={closeMenu}>{t("header.about")}</Link>
           <Link to="/reviews" onClick={closeMenu}>{t("header.reviews")}</Link>
-          <Link to="/events" onClick={closeMenu}>{t("header.events")}</Link>
+          <Link to="/packages" onClick={closeMenu}>{t("header.packages")}</Link>
           <Link to="/faq" onClick={closeMenu}>{t("header.faq")}</Link>
           <Link to="/contact" onClick={closeMenu}>{t("header.contact")}</Link>
 

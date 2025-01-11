@@ -5,6 +5,7 @@
     "about": "About Us",
     "reviews": "Reviews",
     "events": "Events",
+    "packages":"Packages",
     "faq":"FAQ",
     "contact": "Contact Us",
     "language": "Cambiar a Español",
@@ -20,13 +21,12 @@
     "copyright":" 2024 DJ Parce. All Rights Reserved. ",
     "created":"Created by Mia Zebian",
     "seeAll": "See All"
-
   },
   "home": {
     "welcome": "Welcome to the Home Page!",
     "header": "We bring the vibe and music to your event!",
-    "services": "Weddings . Corporate Events . Holiday Parties .\n Birthdays . Social Events . School Events .\n Nightlife Events . Fitness Parties",
-    "book": "Book Your Event"
+    "services": "Weddings . Corporate Events . Holiday Parties .\n Birthdays . Social Events . School Events .\n Venues . Catering . Bartending",
+    "book": "Book Your Package"
   },
   "about": {
     "title": "About Us",
@@ -321,6 +321,64 @@
       "feed":{
         "Feed":"Feed",
         "Mini":"Follow Us on Instagram"
-      }    
+      }    ,
+      "packages":{
+        "description":"Our packages are designed to offer you flexibility and convenience, whether you're planning a small gathering or a grand event. Choose from a variety of services such as DJs, catering, bartending, and more. Mix and match options to create the perfect experience that suits your needs, or opt for individual services like hiring a professional DJ to set the perfect mood. Whether it's a wedding, corporate event, or private party, our customizable packages ensure your vision comes to life seamlessly.",
+        "section1":"Events",
+        "section2":"Services",
+        "packagecont":{
+          "header":"EVENTS & SERVICES",
+          "header1":"Events & Services"
+        },
+        "footer":{
+          "packages":"Packages",
+          "services":"Services",
+          "events":"Events"
+        }
+      },
+      "services":{
+        "header":"Mix and Match options to bring your vision to life seamlessly!",
+        "parallax":"✨ READY TO GET STARTED? ✨",
+        "servicesmain":{
+          "header":"Our Services",
+"description": "Explore our wide range of services designed to meet your event needs, from DJs and catering to bartending and more. If there's something you don't see listed, feel free to contact us, and we'll do our best to accommodate your request.",
+"desc2":"✨ Complete Event Solutions – Chairs, Tables, Tents, Catering, Bartending, and More! ✨",
+
+"options":{
+            "dj":"DJ Entertiment",
+            "venues":"Venues",
+            "catering":"Catering",
+           "bar": "Bartendering",
+           "chairs":"Chairs & Tables",
+           "tents":"Tents"
+          }
+        },
+        "venues":{
+          "header": "🏰 Celebrate in Style – Stunning Venues for Every Occasion ✨",
+          "SubHeader":"🌟 Your Perfect Venue Awaits – Expert Venue Services for Any Occasion 🌟",
+          "MiniHeader":"Let us help you find the ideal venue for your next event, whether it’s a wedding, corporate gathering, milestone celebration, or intimate gathering. We specialize in connecting you with venues that suit your unique needs, offering personalized recommendations based on your style and preferences. From elegant ballrooms to charming outdoor spaces, our team ensures every detail is tailored to make your event a success. Trust us to find the perfect venue that brings your vision to life and makes your occasion unforgettable."
+        },
+        "catering":{
+          "header":"🍽️ Tailored Catering for Every Event – Exceptional Food, Unforgettable Experiences 🍽️",
+          "SubHeader":"🍴 Catering That Elevates Your Event – Delicious, Customized Menus for Every Occasion 🍴",
+          "MiniHeader":"No matter the event – be it a wedding, corporate gathering, milestone celebration, or intimate party – our catering services are designed to impress. We work closely with you to create a tailored menu that reflects your tastes and suits your guests' needs. Whether you’re envisioning a formal dinner, a relaxed buffet, or creative small bites, our team ensures a flawless dining experience from start to finish. Let us handle the food so you can focus on enjoying your special occasion, with every dish crafted to perfection."
+        },
+        "bar":{
+          "SubHeader":"🍹 Professional Bartending for Every Occasion – Exceptional Service, Unforgettable Drinks 🍹",
+          "header":"🍸 Expert Bartending Services – Crafting Perfect Drinks for Every Event 🍸",
+          "MiniHeader":"No matter the occasion, our bartending services will elevate your event with expertly crafted drinks and exceptional service. From signature cocktails to classic favorites, our professional bartenders ensure your guests enjoy a memorable experience with every sip. Let us handle the bar, providing smooth service and a personalized drink menu that fits your event's style and vibe. Celebrate in style with our top-notch bartending services that keep the drinks flowing and the party going!"
+        },
+        "chairs":{
+          "header":"🪑 Perfectly Set – Premium Chair and Table Rentals for Every Occasion 🪑",
+          "SubHeader":"🪑 Quality Chairs and Tables for Every Event – Stylish Rentals to Fit Your Needs 🪑",
+          "MiniHeader":"Transform your event space with our premium chair and table rentals, tailored to suit any occasion. Whether it's a wedding, corporate gathering, or private celebration, we offer a wide selection of furniture that combines functionality with elegance. Our team ensures timely delivery and setup, creating the perfect setting for your guests to enjoy. Trust us to provide the right pieces that enhance the ambiance and make your event both comfortable and memorable."
+        },
+        "tents":{
+          "SubHeader":"⛺️ Reliable Tent Rentals – Perfect for Any Event, Rain or Shine ⛺️",
+          "header":"⛺️ Tent Rentals for Every Event – Comfort and Style, Rain or Shine ⛺️",
+          "MiniHeader":"No matter the weather, our high-quality tent rentals provide the ideal solution for any event. From weddings and corporate gatherings to outdoor celebrations, we offer a variety of tents that suit your space and style. Designed for comfort and durability, our tents protect your guests from the elements while creating an inviting atmosphere. Let us take care of the setup, so you can enjoy a seamless event, rain or shine, with a tent that enhances both function and flair."
+          
+        }
+      }
 
   }

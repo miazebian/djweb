@@ -35,43 +35,36 @@ const FooterBig = () => {
         </div>
         <div className="info">
           <div className="footer-column">
-            <h3 className="footer-title">{t("header.events")}</h3>
+            <h3 className="footer-title">{t("packages.packagecont.header1")}</h3>
             <ul className="footer-list">
               <li>
                 <span
-                  onClick={() => handleReload("/wedding")}
+                  onClick={() => handleReload("/packages")}
                   className="footer-link"
                   style={{ cursor: "pointer" }}
                 >
-                  {t("events.wedding")}
-                </span>
-              </li>
-              <li>
-                <span
-                  onClick={() => handleReload("/private")}
-                  className="footer-link"
-                  style={{ cursor: "pointer" }}
-                >
-                  {t("events.private")}
-                </span>
-              </li>
-              <li>
-                <span
-                  onClick={() => handleReload("/school")}
-                  className="footer-link"
-                  style={{ cursor: "pointer" }}
-                >
-                  {t("events.school")}
+                  {t("packages.footer.packages")}
                 </span>
               </li>
               <li>
                 <span
                   onClick={() => handleReload("/events")}
-                  className="footer-link seeAll"
+                  className="footer-link"
+                  style={{ cursor: "pointer" }}
                 >
-                  {t("footer.seeAll")}
-                </span>
+                  {t("packages.footer.events")}
+                  </span>
               </li>
+              <li>
+                <span
+                  onClick={() => handleReload("/services")}
+                  className="footer-link"
+                  style={{ cursor: "pointer" }}
+                >
+                  {t("packages.footer.services")}
+                  </span>
+              </li>
+             
             </ul>
           </div>
           <div className="footer-column">

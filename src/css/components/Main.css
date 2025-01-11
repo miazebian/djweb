@@ -40,6 +40,7 @@
 /* Style for the mini text */
 .video-text-mini {
   font-size: 2em;
+  white-space: pre-line;
   color: white;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
   font-weight: bold;

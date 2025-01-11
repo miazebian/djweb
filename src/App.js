@@ -18,6 +18,14 @@ import HolidayEvents from "./pages/SubEvents/HolidayEvents";
 import FitnessEvents from './pages/SubEvents/FitnessEvents';
 import NightlifeEvents from "./pages/SubEvents/NightlifeEvents";
 import FAQ from "./pages/FAQ";
+import EventMain from "./components/Events/EventMain";
+import Packages from "./pages/Packages";
+import Services from "./pages/Services";
+import Venues from "./pages/SubServices.js/Venues";
+import Catering from "./pages/SubServices.js/Catering";
+import Bar from "./pages/SubServices.js/Bar";
+import Chairs from "./pages/SubServices.js/Chairs";
+import Tents from "./pages/SubServices.js/Tents";
 
 const AppContent = () => {
   const location = useLocation();
@@ -47,7 +55,12 @@ const AppContent = () => {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/reviews" element={<Reviews />} />
-        <Route path="/events" element={<Events />} />
+        <Route path="/faq" element={<FAQ />} />
+        
+        {/** PACKAGES */}
+        <Route path="/packages" element={<Packages />} />
+                {/** EVENTS */}
+                <Route path="/events" element={<Events />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/wedding" element={<WeddingEvents />} />
         <Route path="/private" element={<PrivateEvents />} />
@@ -57,7 +70,17 @@ const AppContent = () => {
         <Route path="/holiday" element={<HolidayEvents />} />
         <Route path="/nightlife" element={<NightlifeEvents />} />
         <Route path="/fitness" element={<FitnessEvents />} />
-        <Route path="/faq" element={<FAQ />} />
+
+                {/** SERVICES */}
+                <Route path="/services" element={<Services />} />
+                <Route path="/venues" element={<Venues />} />
+                <Route path="/catering" element={<Catering />} />
+                <Route path="/bar" element={<Bar />} />
+                <Route path="/chairs" element={<Chairs />} />
+                <Route path="/tents" element={<Tents />} />
+
+
+        
 
       </Routes>
       {/* Conditionally render FooterBig or Footer */}

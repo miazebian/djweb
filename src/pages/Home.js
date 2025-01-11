@@ -17,6 +17,7 @@ import Feed from "./Feed.js";
 import aboutimage from "../assets/images/AboutHome.jpeg"
 import social from "../assets/images/lightup.jpg"
 import ReviewList from "../components/ReviewList.js";
+import PackageCont from "../components/Home/PackageCont.js";
 
 const Home = () => {
   const { t } = useTranslation();
@@ -29,7 +30,7 @@ const Home = () => {
           <Main />
         </div>
         <div style={{ padding: "3%", paddingTop: "3%" }}>
-          <EventMain />
+          <PackageCont/>
         </div>
         <Above />
 
