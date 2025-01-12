@@ -27,7 +27,7 @@ const Carouselbox = ({ images, title, link }) => {
         {images.map((imageSrc, index) => (
           <img
             key={index}
-            className="image-car"
+            className="event-image"
             src={imageSrc}
             alt={`carousel-img-${index}`}
             style={{

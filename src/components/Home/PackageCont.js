@@ -12,6 +12,16 @@ import nightlifeImage from "../../assets/images/SubEvents/Nightlife/night1.jpeg"
 import fitnessImage from "../../assets/images/SubEvents/Fitness/fitness4.jpg"
 import Carouselbox from "../Carouselbox";
 
+
+
+import chairsimage from "../../assets/images/SubServices/Chairs&Tables/pic1.jpg";
+import tentsimage from "../../assets/images/SubServices/Tents/t8.jpg";
+import venuesimage from "../../assets/images/SubServices/Venues/v6.jpg";
+import dj from "../../assets/images/lightup.jpg"
+import barimage from "../../assets/images/SubServices/bar/b5.avif";
+import cateringimage from "../../assets/images/SubServices/cartering/c10.jpeg";
+
+
 const PackageCont = () => {
   const { t } = useTranslation();
 
@@ -22,7 +32,7 @@ const PackageCont = () => {
   return (
     <div>
       <h1>{t("header.packages")}</h1>
-      <h3 style={{ fontStyle: "normal", fontWeight: "normal", textAlign:"center" }}>
+      <h3 style={{ fontStyle: "normal", fontWeight: "normal", textAlign:"center",paddingBottom:"1%" }}>
   {t("packages.description")}
 </h3>
       <div className="event-box-container1">
@@ -32,7 +42,7 @@ images={[wedding2,schoolImage, privateImage, copimage, holiday, birthdayImage, n
           onClick={() => handleReload("/events")}
         />
         <Carouselbox
-          images={[wedding2]}
+          images={[chairsimage,tentsimage,dj,venuesimage,barimage,cateringimage]}
           title={t("packages.section2")}
           link="/services"
           onClick={() => handleReload("/services")}

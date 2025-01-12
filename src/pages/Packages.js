@@ -13,14 +13,39 @@ import birthdayImage from "../assets/images/SubEvents/Birthdays/birthday2.jpg";
 import nightlifeImage from "../assets/images/SubEvents/Nightlife/night1.jpeg"
 import fitnessImage from "../assets/images/SubEvents/Fitness/fitness4.jpg"
 import PackageCont from "../components/Home/PackageCont";
-
+import chairsimage from "../assets/images/SubServices/Chairs&Tables/pic1.jpg";
+import tentsimage from "../assets/images/SubServices/Tents/t8.jpg";
+import venuesimage from "../assets/images/SubServices/Venues/v6.jpg";
+import dj from "../assets/images/lightup.jpg"
+import barimage from "../assets/images/SubServices/bar/b5.avif";
+import cateringimage from "../assets/images/SubServices/cartering/c10.jpeg";
+import v8 from "../assets/images/SubServices/Venues/v8.jpg";
 
 const Packages = () => {
 
 
   return (
     <div>
-<ImageCarousel images={[wedding2,schoolImage, privateImage, copimage, holiday, birthdayImage, nightlifeImage, fitnessImage]} text="packages.packagecont.header" />
+<ImageCarousel 
+
+images={[
+  fitnessImage,
+  v8,
+  nightlifeImage,
+  cateringimage,
+  birthdayImage,
+  barimage,
+  holiday,
+  venuesimage,
+  copimage,
+  dj,
+  privateImage,
+  chairsimage,
+  schoolImage,
+  tentsimage,
+  wedding2  
+]}
+text="packages.packagecont.header" />
 <div style={{paddingLeft:"3%",paddingRight:"3%",paddingBottom:"3%"}}>
 <PackageCont/>
 </div>
