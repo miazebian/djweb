@@ -35,7 +35,7 @@
     "buttonText": "Más sobre nosotros",
     "home": {
   "header": "HEY, SOMOS DJ Parce",
-  "paragraphText": "DJ Parce crea eventos inolvidables donde los invitados pueden desinhibirse, cantar a todo pulmón y bailar toda la noche. Mientras que la decoración de tu evento será impresionante y la comida será deliciosa, lo que realmente dejará una impresión duradera será la energía y la diversión.",
+"paragraphText": "En DJ Parce, creamos eventos inolvidables con una combinación perfecta de música, energía y servicios excepcionales. Desde DJs profesionales y catering hasta coctelería, decoración y coordinación de eventos, nos aseguramos de que cada detalle esté adaptado a tu visión. Ya sea una boda, reunión corporativa o fiesta privada, nuestra red confiable de proveedores y equipo dedicado garantizan una experiencia extraordinaria que tus invitados recordarán para siempre.",
   "boldText": "Con DJ Parce al mando, tus invitados tienen garantizado pasar el mejor momento de sus vidas."
 },
 "aboutUs": {
@@ -266,7 +266,17 @@
       "brownies": "Brownies",
       "cupcakes": "Cupcakes",
       "customMenu": "Menú personalizado",
-      "customMenuPlaceholder": "Por favor, especifique su menú personalizado"
+      "customMenuPlaceholder": "Por favor, especifique su menú personalizado",
+
+      "photography": "Fotografía",
+      "limos": "Limos y Autobuses para Fiestas",
+      "painting": "Pintura Facial",
+      "paintingpeoplenb": "Número de personas para Pintura Facial",
+      "limo/bus": "Limo o Autobús para Fiesta",
+      "limo/buspeoplenb": "Número de personas para el Limo/Autobús para Fiesta",
+      "Chooselimoorbus": "Elige Limo o Autobús para Fiesta",
+      "chooselimo": "Limo",
+      "choosebus": "Autobús para Fiesta"
     },
     "selectEventType": "Seleccionar Tipo de Evento",
     "other": "Otro",
@@ -396,7 +406,7 @@
 
 },
 "packages":{
-"description": "Nuestros paquetes están diseñados para ofrecerte flexibilidad y comodidad, ya sea que estés planeando una reunión pequeña o un gran evento. Elige entre una variedad de servicios como DJs, catering, bartending y más. Combina y personaliza las opciones para crear la experiencia perfecta que se adapte a tus necesidades, o elige servicios individuales como contratar a un DJ profesional para crear el ambiente ideal. Ya sea una boda, un evento corporativo o una fiesta privada, nuestros paquetes personalizables aseguran que tu visión se haga realidad de manera perfecta.",
+"description": "Nuestros paquetes personalizables están diseñados para hacer que la planificación de eventos sea sencilla, ya sea que estés organizando una reunión íntima o una gran celebración. Ofrecemos una amplia gama de servicios, incluyendo DJs, catering, coctelería y más, lo que te permite combinar y personalizar para crear la experiencia perfecta. Con acceso a una red confiable de proveedores profesionales, garantizamos que cada detalle se maneje con cuidado, ofreciendo servicios de alta calidad adaptados a tus necesidades. Ya sea una boda, evento corporativo o fiesta privada, estamos aquí para hacer realidad tu visión sin complicaciones.",
  "section1": "Eventos",
 "section2": "Servicios",
 "packagecont": {
@@ -425,7 +435,10 @@
       "catering": "Catering",
       "bar": "Bartendering",
       "chairs": "Sillas y Mesas",
-      "tents": "Carpas"
+      "tents": "Carpas",
+      "limo": "Limos y Autobuses para Fiestas",
+      "photo": "Fotografía",
+      "painting": "Pintura Facial"
     }
   },
   "venues": {
@@ -452,7 +465,23 @@
     "SubHeader": "⛺️ Alquileres de Carpas Confiables – Perfectas para Cualquier Evento, Llueva o Haga Sol ⛺️",
     "header": "⛺️ Alquiler de Carpas para Cada Evento – Comodidad y Estilo, Llueva o Haga Sol ⛺️",
     "MiniHeader": "No importa el clima, nuestros alquileres de carpas de alta calidad ofrecen la solución ideal para cualquier evento. Desde bodas y reuniones corporativas hasta celebraciones al aire libre, ofrecemos una variedad de carpas que se adaptan a tu espacio y estilo. Diseñadas para comodidad y durabilidad, nuestras carpas protegen a tus invitados de los elementos mientras crean un ambiente acogedor. Déjanos encargarnos de la instalación para que puedas disfrutar de un evento sin interrupciones, llueva o haga sol, con una carpa que combine funcionalidad y estilo."
-  }
+  },
+  "limos": {
+  "header": "🚐 Alquiler de Limusinas y Autobuses de Fiesta de Lujo – Viaja con Estilo y Comodidad 🚐",
+  "SubHeader": "🎉 Eleva Tu Evento con Alquiler de Limusinas y Autobuses de Fiesta 🎉",
+  "MiniHeader": "Lleva tu celebración al siguiente nivel con nuestros lujosos alquileres de limusinas y autobuses de fiesta. Ya sea una boda, una fiesta de graduación, un evento corporativo o una noche divertida, nuestros vehículos ofrecen la mezcla perfecta de elegancia y emoción. Disfruta de amplios asientos, comodidades modernas y un conductor profesional para asegurar un viaje suave y sin estrés. Desde hacer una gran entrada hasta mantener la fiesta en movimiento, nuestros servicios están diseñados para hacer que cada momento sea inolvidable. Siéntate, relájate y deja que nos encarguemos del viaje mientras disfrutas de la experiencia con estilo."
+},
+"painting": {
+  "MiniHeader": "Agrega un toque de color y emoción a tu evento con nuestros servicios profesionales de pintura facial. Ya sea una fiesta de cumpleaños, un festival, una reunión corporativa o un evento escolar, nuestros talentosos artistas crean diseños impresionantes que deleitan tanto a niños como adultos. Desde personajes divertidos hasta patrones vibrantes, damos vida a tu visión con pinturas seguras y de alta calidad. Haz que tu celebración sea inolvidable con pintura facial que aporta diversión, creatividad y sonrisas para todos.",
+  "header": "🎨 ¡Da Vida a Tu Evento con Vibrante Pintura Facial! ✨",
+  "SubHeader": "🎨 Pintura Facial Divertida y Creativa – Perfecta para Cualquier Evento 🎨"
+},
+"photo": {
+  "header": "📸 Recuerdos en Movimiento – Captura Tus Momentos Especiales con Precisión 🎥",
+  "SubHeader": "📸 Captura Cada Momento – Servicios Profesionales de Fotografía y Videografía 📸",
+  "MiniHeader": "Haz que tus recuerdos sean inolvidables con nuestros servicios expertos de fotografía y videografía. Ya sea una boda, un evento corporativo o una fiesta, capturamos cada momento especial, desde los grandes hitos hasta los pequeños detalles. Nuestro equipo utiliza el equipo más avanzado y técnicas creativas para asegurar que tus recuerdos sean preservados de manera hermosa. Con fotos y videos de alta calidad, podrás revivir tu evento durante muchos años. Déjanos ayudarte a contar tu historia única, fotograma por fotograma."
+}
+
 }
 
 

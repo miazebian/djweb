@@ -34,8 +34,8 @@
     "buttonText":"More About Us",
     "home":{
       "header":"HEY, WE’RE DJ Parce",
-      "paragraphText":"DJ Parce creates unforgettable events where guests can let loose, sing their hearts out, and dance the night away. While your event decor will be stunning and the food will be mouthwatering, it's the energy and fun that will leave a lasting impression.",
-      "boldText":" With DJ Parce behind the decks, your guests are guaranteed to have the best time of their lives." 
+      "paragraphText":"At DJ Parce, we create unforgettable events with a perfect blend of music, energy, and exceptional services. From professional DJs and catering to bartending, decor, and event coordination, we ensure every detail is tailored to your vision. Whether it’s a wedding, corporate gathering, or private party, our trusted network of vendors and dedicated team guarantee an extraordinary experience your guests will remember forever.",
+         "boldText":" With DJ Parce behind the decks, your guests are guaranteed to have the best time of their lives." 
     },
     "aboutUs":{
       "header":"The Story Behind Us",
@@ -264,7 +264,17 @@
       "brownies": "Brownies",
       "cupcakes": "Cupcakes",
       "customMenu": "Custom Menu",
-      "customMenuPlaceholder": "Please specify your custom menu"
+      "customMenuPlaceholder": "Please specify your custom menu",
+
+      "photography":"Photography",
+      "limos":"Limos & Party Buses",
+      "painting":"Face Painting",
+      "paintingpeoplenb":"Number of People for Face Painting",
+      "limo/bus":"Limo or Party Bus",
+      "limo/buspeoplenb":"Number of People for the Limo/ Party Bus",
+      "Chooselimoorbus":"Choose Limo or Party Bus",
+      "chooselimo":"Limo",
+      "choosebus":"Party Bus"
     },
     "selectEventType": "Select an Event Type",
     "other": "Other",
@@ -400,8 +410,8 @@
         "Mini":"Follow Us on Instagram"
       }    ,
       "packages":{
-        "description":"Our packages are designed to offer you flexibility and convenience, whether you're planning a small gathering or a grand event. Choose from a variety of services such as DJs, catering, bartending, and more. Mix and match options to create the perfect experience that suits your needs, or opt for individual services like hiring a professional DJ to set the perfect mood. Whether it's a wedding, corporate event, or private party, our customizable packages ensure your vision comes to life seamlessly.",
-        "section1":"Events",
+        "description":"Our customizable packages are designed to make event planning effortless, whether you're hosting an intimate gathering or a large celebration. We offer a wide range of services, including DJs, catering, bartending, and more, allowing you to mix and match to create the perfect experience. With access to a trusted network of professional vendors, we ensure every detail is handled with care, delivering high-quality services tailored to your needs. Whether it's a wedding, corporate event, or private party, we’re here to bring your vision to life seamlessly.",
+          "section1":"Events",
         "section2":"Services",
         "packagecont":{
           "header":"EVENTS & SERVICES",
@@ -427,7 +437,10 @@
             "catering":"Catering",
            "bar": "Bartendering",
            "chairs":"Chairs & Tables",
-           "tents":"Tents"
+           "tents":"Tents",
+           "limo":"Limos & Party Buses",
+           "photo":"Photography",
+           "painting":"Face Painting"
           }
         },
         "venues":{
@@ -455,6 +468,21 @@
           "header":"⛺️ Tent Rentals for Every Event – Comfort and Style, Rain or Shine ⛺️",
           "MiniHeader":"No matter the weather, our high-quality tent rentals provide the ideal solution for any event. From weddings and corporate gatherings to outdoor celebrations, we offer a variety of tents that suit your space and style. Designed for comfort and durability, our tents protect your guests from the elements while creating an inviting atmosphere. Let us take care of the setup, so you can enjoy a seamless event, rain or shine, with a tent that enhances both function and flair."
           
+        },
+        "limos":{
+          "header":"🚐 Luxury Limo & Party Bus Rentals – Travel in Style and Comfort 🚐",
+          "SubHeader":"🎉 Elevate Your Event with Limo & Party Bus Rentals 🎉",
+          "MiniHeader":"Take your celebration to the next level with our luxurious limo and party bus rentals. Whether it’s a wedding, prom, corporate event, or a fun night out, our vehicles offer the perfect mix of elegance and excitement. Enjoy spacious seating, modern amenities, and a professional driver to ensure your ride is smooth and stress-free. From making a grand entrance to keeping the party alive on the go, our services are designed to make every moment unforgettable. Sit back, relax, and let us handle the journey while you enjoy the experience in style."
+        },
+        "painting":{
+          "MiniHeader":"Add a splash of color and excitement to your event with our professional face painting services. Whether it’s a birthday party, festival, corporate gathering, or school event, our talented artists create stunning designs that delight kids and adults alike. From whimsical characters to vibrant patterns, we bring your vision to life with safe, high-quality paints. Make your celebration unforgettable with face painting that adds fun, creativity, and smiles for everyone!",
+          "header":"🎨 Bring Your Event to Life with Vibrant Face Painting! ✨",
+          "SubHeader":"🎨 Fun & Creative Face Painting – Perfect for Any Event 🎨"
+        },
+        "photo":{
+          "header":"📸 Memories in Motion – Capturing Your Special Moments with Precision 🎥",
+          "SubHeader":"📸 Capture Every Moment – Professional Photography & Videography Services 📸",
+          "MiniHeader":"Make your memories unforgettable with our expert photography and videography services. Whether it's a wedding, corporate event, or party, we capture every special moment, from the big milestones to the little details. Our team uses the latest equipment and creative techniques to ensure your memories are beautifully preserved. With high-quality photos and videos, you'll be able to relive your event for years to come. Let us help you tell your unique story, frame by frame."
         }
       }
 

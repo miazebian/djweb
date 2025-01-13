@@ -61,6 +61,27 @@ const ServicesMain = () => {
           link="/tents"
           onClick={() => handleReload("/tents")}
         />
+
+         <EventBox
+          image={tentsimage}
+          title={t("services.servicesmain.options.limo")}          
+          link="/limos"
+          onClick={() => handleReload("/limos")}
+        />
+        
+<EventBox
+          image={tentsimage}
+          title={t("services.servicesmain.options.painting")}          
+          link="/painting"
+          onClick={() => handleReload("/painting")}
+        />
+         <EventBox
+          image={tentsimage}
+          title={t("services.servicesmain.options.photo")}          
+          link="/photo"
+          onClick={() => handleReload("/photo")}
+        />
+
       </div>
     </div>
   );

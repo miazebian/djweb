@@ -37,6 +37,9 @@ function Contact() {
   appetizers: [], // Array of selected appetizers
   desserts: [], // Array of selected desserts
   customMenu: "", // Custom menu text if undecided
+  limoPeople: "", // Number of people for limo or party bus
+  limoOrBus: "", // Choice of limo or party bus
+  facePaintingPeople: "", // Number of people for face painting
   });
 
 
@@ -121,26 +124,10 @@ const handleChange = (e) => {
 
       return { ...prevFormData, [name]: newDesserts };
     });
-  } else if (name.startsWith("chairs.")) {
-    const [category, field] = name.split(".");
-
+  } else if ( name === "limoPeople" || name === "facePaintingPeople" || name === "limoOrBus") {
     setFormData(prevFormData => ({
       ...prevFormData,
-      [category]: {
-        ...prevFormData[category],
-        [field]: value
-      }
-    }));
-  } else if (name === "tentSize" || name === "tentCount" || name === "customTentSize") {
-    setFormData(prevFormData => ({
-      ...prevFormData,
-      [name]: value
-    }));
-  } else if (name === "catering" && (value === "Other" || value === "Undecided")) {
-    setFormData(prevFormData => ({
-      ...prevFormData,
-      [name]: value,
-      customMenu: "" // Reset the custom menu field
+      [name]: type === "checkbox" ? checked : value
     }));
   } else {
     setFormData(prevFormData => ({
@@ -194,6 +181,15 @@ const generateEmailBody = () => {
       <p><strong>Appetizers:</strong> ${formData.appetizers.length > 0 ? formData.appetizers.join(", ") : "Not specified"}</p>
       <p><strong>Desserts:</strong> ${formData.desserts.length > 0 ? formData.desserts.join(", ") : "Not specified"}</p>
       ${formData.customMenu && formData.customMenu !== "" ? `<p><strong>Custom Menu:</strong> ${formData.customMenu}</p>` : ""}
+    ` : ""}
+
+    ${formData.services.includes("limos & party buses") ? `
+      <p><strong>Number of People for Limos & Party Buses:</strong> ${formData.limoPeople || "Not specified"}</p>
+      <p><strong>Choice of Limo or Party Bus:</strong> ${formData.limoOrBus || "Not specified"}</p>
+    ` : ""}
+
+    ${formData.services.includes("face painting") ? `
+      <p><strong>Number of People for Face Painting:</strong> ${formData.facePaintingPeople || "Not specified"}</p>
     ` : ""}
 
     <p><strong>Additional Service Details:</strong> ${formData.serviceDetails || "Not specified"}</p>
@@ -425,6 +421,10 @@ const generateEmailBody = () => {
     <option value="bar">{t("contact.form.bar")}</option>
     <option value="chairs">{t("contact.form.chairs")}</option>
     <option value="tents">{t("contact.form.tents")}</option>
+    <option value="photography">{t("contact.form.photography")}</option>
+    <option value="limos & party buses">{t("contact.form.limos")}</option>
+    <option value="face painting">{t("contact.form.painting")}</option>
+
   </select>
 </label>
 
@@ -653,6 +653,47 @@ const generateEmailBody = () => {
     </label>
   </div>
 )}
+
+
+{formData.services.includes("limos & party buses") && (
+    <div>
+       <label>
+       {t("contact.form.limo/bus")}:
+       <select name="limoOrBus" value={formData.limoOrBus} onChange={handleChange}>
+          <option value="">        {t("contact.form.Chooselimoorbus")}:
+          </option>
+          <option value="limo"> {t("contact.form.chooselimo")}</option>
+          <option value="party bus"> {t("contact.form.choosebus")}</option>
+        </select>
+      </label>
+      <label>
+      {t("contact.form.limo/buspeoplenb")}      <input
+          type="number"
+          name="limoPeople"
+          value={formData.limoPeople}
+          onChange={handleChange}
+          min="0"  // Ensures only positive numbers (including zero) are entered
+  step="1" 
+        />
+      </label>
+    </div>
+  )}
+
+
+{formData.services.includes("face painting") && (
+    <div>
+      <label>
+      {t("contact.form.paintingpeoplenb")}:        <input
+          type="number"
+          name="facePaintingPeople"
+          value={formData.facePaintingPeople}
+          onChange={handleChange}
+          min="0"  // Ensures only positive numbers (including zero) are entered
+          step="1" 
+        />
+      </label>
+    </div>
+  )}
 
 {/* Catering Section */}
 {formData.services.includes("catering") && (

@@ -26,6 +26,9 @@ import Catering from "./pages/SubServices.js/Catering";
 import Bar from "./pages/SubServices.js/Bar";
 import Chairs from "./pages/SubServices.js/Chairs";
 import Tents from "./pages/SubServices.js/Tents";
+import Limos from "./pages/SubServices.js/Limos";
+import Painting from "./pages/SubServices.js/Painting";
+import Photo from "./pages/SubServices.js/Photo";
 
 const AppContent = () => {
   const location = useLocation();
@@ -78,6 +81,9 @@ const AppContent = () => {
                 <Route path="/bar" element={<Bar />} />
                 <Route path="/chairs" element={<Chairs />} />
                 <Route path="/tents" element={<Tents />} />
+                <Route path="/limos" element={<Limos />} />
+                <Route path="/painting" element={<Painting />} />
+                <Route path="/photo" element={<Photo />} />
 
 
         
