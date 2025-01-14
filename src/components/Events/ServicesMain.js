@@ -9,6 +9,10 @@ import tentsimage from "../../assets/images/SubServices/Tents/t8.jpg";
 import venuesimage from "../../assets/images/SubServices/Venues/v6.jpg";
 import dj from "../../assets/images/lightup.jpg"
 import barimage from "../../assets/images/SubServices/bar/b5.avif";
+import limoimage from "../../assets/images/SubServices/limos&buses/LB13.png"
+import facepaingtingimage from "../../assets/images/SubServices/FacePainting/fp1.jpeg";
+import p9 from "../../assets/images/SubEvents/Weddings/Wedding8.jpg"
+
 
 const ServicesMain = () => {
   const { t } = useTranslation();
@@ -31,24 +35,26 @@ const ServicesMain = () => {
           link="/events"
           onClick={() => handleReload("/events")}
         />
+         <EventBox
+          image={cateringimage}
+          title={t("services.servicesmain.options.catering")}
+          link="/catering"
+          onClick={() => handleReload("/catering")}
+        />
+          <EventBox
+          image={p9}
+          title={t("services.servicesmain.options.photo")}          
+          link="/photo"
+          onClick={() => handleReload("/photo")}
+        />
         <EventBox
           image={venuesimage}
           title={t("services.servicesmain.options.venues")}
           link="/venues"
           onClick={() => handleReload("/venues")}
         />
-        <EventBox
-          image={cateringimage}
-          title={t("services.servicesmain.options.catering")}
-          link="/catering"
-          onClick={() => handleReload("/catering")}
-        />
-         <EventBox
-          image={barimage}
-          title={t("services.servicesmain.options.bar")}
-          link="/bar"
-          onClick={() => handleReload("/bar")}
-        />
+       
+        
          <EventBox
           image={chairsimage}
           title={t("services.servicesmain.options.chairs")}
@@ -61,26 +67,26 @@ const ServicesMain = () => {
           link="/tents"
           onClick={() => handleReload("/tents")}
         />
-
+ <EventBox
+          image={barimage}
+          title={t("services.servicesmain.options.bar")}
+          link="/bar"
+          onClick={() => handleReload("/bar")}
+        />
          <EventBox
-          image={tentsimage}
+          image={limoimage}
           title={t("services.servicesmain.options.limo")}          
           link="/limos"
           onClick={() => handleReload("/limos")}
         />
         
 <EventBox
-          image={tentsimage}
+          image={facepaingtingimage}
           title={t("services.servicesmain.options.painting")}          
           link="/painting"
           onClick={() => handleReload("/painting")}
         />
-         <EventBox
-          image={tentsimage}
-          title={t("services.servicesmain.options.photo")}          
-          link="/photo"
-          onClick={() => handleReload("/photo")}
-        />
+       
 
       </div>
     </div>

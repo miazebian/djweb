@@ -20,6 +20,9 @@ import dj from "../assets/images/lightup.jpg"
 import barimage from "../assets/images/SubServices/bar/b5.avif";
 import cateringimage from "../assets/images/SubServices/cartering/c10.jpeg";
 import v8 from "../assets/images/SubServices/Venues/v8.jpg";
+import limoimage from "../assets/images/SubServices/limos&buses/LB13.png"
+import facepaingtingimage from "../assets/images/SubServices/FacePainting/fp1.jpeg";
+import p9 from "../assets/images/SubEvents/Weddings/Wedding8.jpg"
 
 const Packages = () => {
 
@@ -29,9 +32,10 @@ const Packages = () => {
 <ImageCarousel 
 
 images={[
-  fitnessImage,
+  p9,
   v8,
   nightlifeImage,
+  fitnessImage,
   cateringimage,
   birthdayImage,
   barimage,
@@ -41,9 +45,11 @@ images={[
   dj,
   privateImage,
   chairsimage,
+  facepaingtingimage,
   schoolImage,
   tentsimage,
-  wedding2  
+  wedding2,
+  limoimage
 ]}
 text="packages.packagecont.header" />
 <div style={{paddingLeft:"3%",paddingRight:"3%",paddingBottom:"3%"}}>

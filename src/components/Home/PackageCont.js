@@ -20,7 +20,9 @@ import venuesimage from "../../assets/images/SubServices/Venues/v6.jpg";
 import dj from "../../assets/images/lightup.jpg"
 import barimage from "../../assets/images/SubServices/bar/b5.avif";
 import cateringimage from "../../assets/images/SubServices/cartering/c10.jpeg";
-
+import limoimage from "../../assets/images/SubServices/limos&buses/LB13.png"
+import facepaingtingimage from "../../assets/images/SubServices/FacePainting/fp1.jpeg";
+import p9 from "../../assets/images/SubEvents/Weddings/Wedding8.jpg"
 
 const PackageCont = () => {
   const { t } = useTranslation();
@@ -37,7 +39,7 @@ const PackageCont = () => {
 </h3>
       <div className="event-box-container1">
         <Carouselbox
-images={[wedding2,schoolImage, privateImage, copimage, holiday, birthdayImage, nightlifeImage, fitnessImage]}          title={t("packages.section1")}
+images={[wedding2,schoolImage, privateImage, p9,copimage, holiday, birthdayImage, nightlifeImage, limoimage,fitnessImage, facepaingtingimage]}          title={t("packages.section1")}
           link="/events"
           onClick={() => handleReload("/events")}
         />

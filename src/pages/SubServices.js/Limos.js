@@ -4,32 +4,35 @@ import weddingImage from '../../assets/images/SubEvents/Weddings/Wedding6.jpg';
 import VideoWed from "../../assets/videos/WeddingVideo.mp4";
 import { useTranslation } from 'react-i18next';
 
-import t1 from "../../assets/images/SubServices/Tents/t1.jpg";
-import t2 from "../../assets/images/SubServices/Tents/t2.jpg";
-import t3 from "../../assets/images/SubServices/Tents/t3.jpg";
-import t4 from "../../assets/images/SubServices/Tents/t4.jpg";
-import t5 from "../../assets/images/SubServices/Tents/t5.jpg";
-import t6 from "../../assets/images/SubServices/Tents/t6.jpg";
-import t7 from "../../assets/images/SubServices/Tents/t7.jpg";
-import t8 from "../../assets/images/SubServices/Tents/t8.jpg";
-import t9 from "../../assets/images/SubServices/Tents/t9.jpg";
-import t10 from "../../assets/images/SubServices/Tents/t10.jpg";
-import t11 from "../../assets/images/SubServices/Tents/t11.jpg";
-
+import l1 from "../../assets/images/SubServices/limos&buses/LB1.png"
+import l2 from "../../assets/images/SubServices/limos&buses/LB2.jpeg"
+import l3 from "../../assets/images/SubServices/limos&buses/LB3.jpg";
+import l4 from "../../assets/images/SubServices/limos&buses/LB4.jpg";
+import l5 from "../../assets/images/SubServices/limos&buses/LB5.jpg";
+import l6 from "../../assets/images/SubServices/limos&buses/LB6.jpeg";
+import l7 from "../../assets/images/SubServices/limos&buses/LB7.jpg";
+import l8 from "../../assets/images/SubServices/limos&buses/LB8.jpg";
+import l9 from "../../assets/images/SubServices/limos&buses/LB9.jpeg";
+import l10 from "../../assets/images/SubServices/limos&buses/LB10.jpeg";
+import l11 from "../../assets/images/SubServices/limos&buses/LB11.jpg";
+import l12 from "../../assets/images/SubServices/limos&buses/LB12.jpg";
+import l13 from "../../assets/images/SubServices/limos&buses/LB13.png";
+import l14 from "../../assets/images/SubServices/limos&buses/LB14.jpg";
 
 import EventSection from '../SubEvents/EventSection';
 
 function Limos() {
   const { t } = useTranslation();
 
-  const imageCarouselImages = [t10];
+  const imageCarouselImages = [l12];
   const imageCarouselText = t("services.limos.header");
   const subHeader = t("services.limos.SubHeader");
   const miniHeaders = [
     t("services.limos.MiniHeader")
   ];
-  const imageStackImages = [t1,t2,t6];
-  const reverseImageImages = [t7, t3, t11];
+  const imageStackImages = [l9,l6,l3];
+  const reverseImageImages = [l4, l5, l1];
+  const imageStackImages2=[l7,l8,l2];
   const parallaxHeaderText = t("services.parallax");
   const parallaxButtonText = t("about.Image.buttonText");
   const parallaxNavText = "/contact";
@@ -40,11 +43,12 @@ function Limos() {
       imageCarouselText={imageCarouselText}
       subHeader={subHeader}
       miniHeaders={miniHeaders}
+      imageStackImages2={imageStackImages2}
   //    videoSrc={videoSrc}
-      imgSrc={t5}
+      imgSrc={l14}
       imageStackImages={imageStackImages}
       reverseImageImages={reverseImageImages}
-      parallaxImage={t8}
+      parallaxImage={l13}
       parallaxHeaderText={parallaxHeaderText}
       parallaxButtonText={parallaxButtonText}
       parallaxNavText={parallaxNavText}

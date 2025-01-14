@@ -4,32 +4,31 @@ import weddingImage from '../../assets/images/SubEvents/Weddings/Wedding6.jpg';
 import VideoWed from "../../assets/videos/WeddingVideo.mp4";
 import { useTranslation } from 'react-i18next';
 
-import t1 from "../../assets/images/SubServices/Tents/t1.jpg";
-import t2 from "../../assets/images/SubServices/Tents/t2.jpg";
-import t3 from "../../assets/images/SubServices/Tents/t3.jpg";
-import t4 from "../../assets/images/SubServices/Tents/t4.jpg";
-import t5 from "../../assets/images/SubServices/Tents/t5.jpg";
-import t6 from "../../assets/images/SubServices/Tents/t6.jpg";
-import t7 from "../../assets/images/SubServices/Tents/t7.jpg";
-import t8 from "../../assets/images/SubServices/Tents/t8.jpg";
-import t9 from "../../assets/images/SubServices/Tents/t9.jpg";
-import t10 from "../../assets/images/SubServices/Tents/t10.jpg";
-import t11 from "../../assets/images/SubServices/Tents/t11.jpg";
 
+import fp1 from "../../assets/images/SubServices/FacePainting/fp1.jpeg";
+import fp2 from "../../assets/images/SubServices/FacePainting/fp2.webp";
+import fp3 from "../../assets/images/SubServices/FacePainting/fp3.jpg";
+import fp4 from "../../assets/images/SubServices/FacePainting/fp4.jpg";
+import fp5 from "../../assets/images/SubServices/FacePainting/fp5.jpg";
+import fp6 from "../../assets/images/SubServices/FacePainting/fp6jpg.jpg";
+import fp7 from "../../assets/images/SubServices/FacePainting/fp7.jpg";
+import fp8 from "../../assets/images/SubServices/FacePainting/fp8..jpg";
+import fp9 from "../../assets/images/SubServices/FacePainting/fp9.webp";
+import fp10 from "../../assets/images/SubServices/FacePainting/fp10.jpg";
 
 import EventSection from '../SubEvents/EventSection';
 
 function Painting() {
   const { t } = useTranslation();
 
-  const imageCarouselImages = [t10];
+  const imageCarouselImages = [fp2];
   const imageCarouselText = t("services.painting.header");
   const subHeader = t("services.painting.SubHeader");
   const miniHeaders = [
     t("services.painting.MiniHeader")
   ];
-  const imageStackImages = [t1,t2,t6];
-  const reverseImageImages = [t7, t3, t11];
+  const imageStackImages = [fp4,fp5,fp6];
+  const reverseImageImages = [fp7, fp10, fp9];
   const parallaxHeaderText = t("services.parallax");
   const parallaxButtonText = t("about.Image.buttonText");
   const parallaxNavText = "/contact";
@@ -41,10 +40,10 @@ function Painting() {
       subHeader={subHeader}
       miniHeaders={miniHeaders}
   //    videoSrc={videoSrc}
-      imgSrc={t5}
+      imgSrc={fp3}
       imageStackImages={imageStackImages}
       reverseImageImages={reverseImageImages}
-      parallaxImage={t8}
+      parallaxImage={fp8}
       parallaxHeaderText={parallaxHeaderText}
       parallaxButtonText={parallaxButtonText}
       parallaxNavText={parallaxNavText}

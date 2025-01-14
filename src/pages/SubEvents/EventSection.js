@@ -17,6 +17,7 @@ function EventSection({
   imgSrc,
   imageStackImages,
   reverseImageImages,
+  imageStackImages2,
   parallaxImage,
   parallaxHeaderText,
   parallaxParagraphText,
@@ -73,6 +74,14 @@ function EventSection({
           <ImageStack images={imageStackImages} />
         </div>   
         </div>   :""}
+
+        {(imageStackImages2!==null &&imageStackImages2!==undefined)?
+        <div style={{alignContent:"center",alignItems:"center",alignSelf:"center",justifyContent:"center",display:'flex',width:"50%"}}>
+        <div className="image-stack-container">
+                  <ImageStack images={imageStackImages2} />
+                </div>   
+                </div>:""
+}
       
       <Above2 />
 
