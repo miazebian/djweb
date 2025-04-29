@@ -14,6 +14,7 @@ import holiday8 from "../../assets/images/SubEvents/Holiday/holiday8.avif"
 import holiday9 from "../../assets/images/SubEvents/Holiday/holiday9.jpg"
 import holiday10 from "../../assets/images/SubEvents/Holiday/holiday10.jpg"
 
+import VideoSocial from '../../assets/videos/video2.mp4'
 
 function HolidayEvents() {
   const { t } = useTranslation();
@@ -39,7 +40,7 @@ function HolidayEvents() {
       imageCarouselText={imageCarouselText}
       subHeader={subHeader}
       miniHeaders={miniHeaders}
-      imgSrc={imgSrc}
+      videoSrc={VideoSocial}
       imageStackImages={imageStackImages}
       reverseImageImages={reverseImageImages}
       parallaxImage={parallaxImage}

@@ -10,7 +10,7 @@ import social1 from "../../assets/images/SubEvents/Social/social4.jpg"
 import social2 from "../../assets/images/SubEvents/Social/Social1.jpg";
 import social3 from "../../assets/images/SubEvents/Social/Social2.jpg";
 
-import VideoSocial from '../../assets/videos/SocialVideo.mp4'
+import VideoSocial from '../../assets/videos/video1.mp4'
 
 function PrivateEvents() {
   const { t } = useTranslation();
