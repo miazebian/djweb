@@ -1,174 +1,168 @@
-
 {
   "header": {
     "home": "Inicio",
     "about": "Sobre Nosotros",
     "reviews": "Reseñas",
-    "packages": "Paquetes",
     "events": "Eventos",
+    "packages": "Paquetes",
+    "faq": "Preguntas Frecuentes",
     "contact": "Contáctanos",
-    "faq":"Preguntas Frecuentes",
-"language": "Switch to English",
-    "companyname": "DJ Parce"
+    "language": "Switch to English",
+    "companyname": "DJ Vroomx3"
   },
   "footer": {
     "question": "¿Listo para trabajar juntos?",
     "header": "Encanta tu Evento",
     "company": "Compañía",
     "connect": "Conéctate con Nosotros",
-"compressedLoc": "Raleigh, NC - EE. UU.",
-"location": "Raleigh, NC - Estados Unidos",
-"copyright": "2024 DJ Parce. Todos los derechos reservados.",
+    "compressedLoc": "Raleigh, NC - EE. UU.",
+    "location": "Raleigh, NC - Estados Unidos",
+    "copyright": "2024 DJ Vroomx3. Todos los derechos reservados.",
     "created": "Creado por Mia Zebian",
     "seeAll": "Ver Todos"
-
   },
   "home": {
     "welcome": "¡Bienvenido a la Página de Inicio!",
     "header": "¡Llevamos la vibra y la música a tu evento!",
-"services": "Bodas . Eventos Corporativos . Fiestas Navideñas .\n Cumpleaños . Eventos Sociales . Eventos Escolares .\n Lugares . Catering . Barra",
-"book": "Reserva Tu Paquete"
-},
+    "services": "Bodas . Eventos Corporativos . Fiestas de Fin de Año . Cumpleaños . Eventos Sociales . Eventos Escolares . Lugares . Catering . Barra",
+    "book": "Reserva tu Paquete"
+  },
   "about": {
     "title": "Sobre Nosotros",
     "description": "¡Nos apasiona crear aplicaciones!",
-    "buttonText": "Más sobre nosotros",
+    "buttonText": "Más Sobre Nosotros",
     "home": {
-  "header": "HEY, SOMOS DJ Parce",
-"paragraphText": "En DJ Parce, creamos eventos inolvidables con una combinación perfecta de música, energía y servicios excepcionales. Desde DJs profesionales y catering hasta coctelería, decoración y coordinación de eventos, nos aseguramos de que cada detalle esté adaptado a tu visión. Ya sea una boda, reunión corporativa o fiesta privada, nuestra red confiable de proveedores y equipo dedicado garantizan una experiencia extraordinaria que tus invitados recordarán para siempre.",
-  "boldText": "Con DJ Parce al mando, tus invitados tienen garantizado pasar el mejor momento de sus vidas."
-},
-"aboutUs": {
-  "header": "La Historia Detrás de Nosotros",
-  "header2": "Nuestro Propósito en DJ Parce",
-  "paragraph": "En DJ Parce, creemos en crear experiencias inolvidables. Ya sea una boda, un evento privado o una celebración escolar, nuestro objetivo es hacer realidad tu visión con energía, pasión y creatividad. Fundado por Parce, un profesional experimentado en la industria de eventos, nuestro equipo tiene un compromiso profundo de hacer que cada momento sea memorable. Nos especializamos en ofrecer entretenimiento excepcional, gestión de eventos sin problemas y servicios personalizados que reflejan tu estilo único. Lo que nos distingue es nuestra dedicación a entregar experiencias de primer nivel. Desde la primera consulta hasta la última canción de la noche, nos aseguramos de que cada detalle sea perfecto, dejando a ti y a tus invitados con recuerdos que durarán toda la vida.",
-  "boldText": "Entendemos que cada evento es diferente, por lo que nos aseguramos de que todo se trate de garantizar que tengas el mejor tiempo, y estamos ansiosos de ser parte de tu próxima celebración."
-},
-"Image": {
-  "header": "¿LISTO PARA CELEBRAR?",
-  "buttonText": "Contáctanos"
-}
+      "header": "HOLA, SOMOS DJ Vroomx3",
+      "paragraphText": "En DJ Vroomx3, creamos eventos inolvidables con una combinación perfecta de música, energía y servicios excepcionales. Desde DJs profesionales hasta catering, barra, decoración y coordinación de eventos, nos aseguramos de que cada detalle se ajuste a tu visión. Ya sea una boda, una reunión corporativa o una fiesta privada, nuestra red de proveedores de confianza y nuestro equipo dedicado garantizan una experiencia extraordinaria que tus invitados recordarán para siempre.",
+      "boldText": "Con DJ Vroomx3 y DJ Parce al mando, tus invitados están garantizados para tener la mejor experiencia de sus vidas."
+    },
+    "aboutUs": {
+      "header": "La Historia Detrás de Nosotros",
+      "header2": "Nuestro Propósito en DJ Vroomx3",
+      "paragraph": "En DJ Vroomx3, creemos en crear experiencias inolvidables. Ya sea una boda, un evento privado o una celebración escolar, nuestro objetivo es hacer realidad tu visión con energía, pasión y creatividad. Fundado por Parce, un profesional experimentado en la industria de eventos, nuestro equipo tiene un compromiso profundo de hacer que cada momento sea memorable. Nos especializamos en ofrecer entretenimiento excepcional, gestión de eventos sin contratiempos y servicios personalizados que reflejan tu estilo único. Lo que nos distingue es nuestra dedicación para entregar experiencias de primer nivel. Desde la primera consulta hasta la última canción de la noche, nos aseguramos de que cada detalle sea perfecto, dejando a ti y a tus invitados con recuerdos que durarán toda la vida.",
+      "boldText": "Entendemos que cada evento es diferente, por lo que nos aseguramos de que todo se enfoque en que tengas el mejor momento, ¡y no podemos esperar para ser parte de tu próxima celebración!"
+    },
+    "Image": {
+      "header": "¿LISTO PARA CELEBRAR?",
+      "buttonText": "Contáctanos"
+    }
   },
   "reviews": {
     "title": "Reseñas",
-   "reviews": [
-  {
-    "text": "Muchas gracias por una noche mágica ♥ ¡La gente no para de hablar de lo increíble que fue!"
+    "reviews": [{
+        "text": "¡Muchas gracias por una noche mágica ♥ la gente ha estado hablando de lo increíble que fue!"
+      },
+      {
+        "text": "¡Tu música hizo que nuestra fiesta navideña fuera inolvidable! Las transiciones fueron perfectas, y los clásicos navideños hicieron que todos se sintieran festivos mientras las canciones más nuevas mantenían la energía alta. 🎅🎄 Definitivamente te tendremos de vuelta el próximo año."
+      },
+      {
+        "text": "¡Me encantó!! ¡Me divertí mucho!! ¡¡Eres LO MEJOR!!!"
+      },
+      {
+        "text": "¡Wow! ¡Hiciste que mi Sweet 16 fuera para el recuerdo! La atmósfera que creaste fue perfecta, ¡me sentí como si estuviera en un concierto! 🎤🔥 La forma en que mezclaste las canciones mantuvo a todos en pie. ¿Cómo podemos reservarte nuevamente para otro evento? ¡Mi prima quiere la misma vibra para su Sweet 16!"
+      },
+      {
+        "text": "¡Muchos me dijeron que te amaron!!! ¡Siempre te recomendaré si alguien pregunta! 😊"
+      },
+      {
+        "text": "¡Hiciste que mi Quinceañera fuera mágica! La música fue exactamente lo que imaginé y realmente dio el tono al evento. Desde canciones tradicionales hasta los éxitos más recientes, todos se divirtieron increíblemente. 🌟🎶 Definitivamente quiero la misma energía para la quinceañera de mi prima. ¿Podemos reservarte para eso también?"
+      },
+      {
+        "text": "¡Gracias por hacer que nuestro evento fuera tan memorable!"
+      },
+      {
+        "text": "¡Heeeeeey! ¡Muchísimas gracias por anoche! ¡Todo estuvo increíble y a la gente le ENCANTÓ la música! ¡Las vibras fueron impecables! ¡¡Gracias, gracias, gracias!!!"
+      },
+      {
+        "text": "¡Gracias por hacer que nuestra boda fuera inolvidable! La música fue perfecta y la energía increíble. ¡Tuvimos invitados en la pista de baile toda la noche! 🎶💍"
+      },
+      {
+        "text": "¡Gran trabajo en nuestro evento! La atmósfera estuvo animada y mezclaste la música perfectamente para el público. ¡Nuestro equipo se divirtió muchísimo!"
+      },
+      {
+        "text": "¡La fiesta no habría sido lo mismo sin ti! ¡Tu lista de reproducción fue perfecta y la vibra fue eléctrica! ¡La mejor experiencia de DJ de todas!"
+      },
+      {
+        "text": "¡Sin duda, el mejor DJ de la ciudad! ¡Los ritmos me mantuvieron bailando toda la noche! La multitud estaba emocionada y las transiciones entre las canciones fueron perfectas. 🔥"
+      },
+      {
+        "text": "¡Set épico en el festival! Tu energía fue contagiosa y la calidad del sonido increíble. ¡No puedo esperar para verte actuar nuevamente! 🎧🎉"
+      },
+      {
+        "text": "¡Gracias por hacer que mi celebración de cumpleaños fuera una noche para recordar! ¡Pusiste todas mis canciones favoritas y mantuviste la fiesta encendida toda la noche! 🎂🎶"
+      },
+      {
+        "text": "¡La vibra que creaste en la fiesta de playa fue increíble! Las canciones fueron perfectas para el atardecer, fue la manera ideal de cerrar el fin de semana. 🌊🎶"
+      },
+      {
+        "text": "¡Una vibra épica en nuestro evento de fitness! Tu música nos mantuvo motivados y con energía todo el tiempo. Las canciones alegres fueron perfectas para nuestras sesiones de entrenamiento. 💪🎧 ¡Ya hemos recibido muchas preguntas de dónde te encontramos! ¿Puedes ser DJ en nuestro próximo evento de fitness?"
+      },
+      {
+        "text": "¡Muchas gracias por ser parte de nuestro baile escolar! La música realmente marcó el tono de la noche, ¡y todos estuvieron bailando de principio a fin! 🎧📚 Fue una mezcla perfecta de canciones animadas y clásicos para que todos disfrutaran. ¿Estarás disponible para nuestro próximo evento? ¡Queremos la misma vibra otra vez!"
+      }
+    ]
   },
-  {
-    "text": "¡Tu música hizo que nuestra fiesta navideña fuera inolvidable! Las transiciones fueron perfectas y los clásicos navideños hicieron que todos se sintieran festivos, mientras que las canciones más nuevas mantuvieron la energía alta. 🎅🎄 ¡Definitivamente te invitaremos el próximo año!"
+  "events": {
+    "title": "Nuestros Eventos",
+    "description": "DJ Vroomx3 y DJ Parce tienen experiencia en todo tipo de eventos, desde bodas hasta arenas; en todos los lugares en los que tocan, hacen mover a la multitud.",
+    "wedding": "Bodas",
+    "private": "Eventos Sociales",
+    "school": "Eventos Escolares",
+    "birthdays": "Cumpleaños",
+    "corporate": "Eventos Corporativos",
+    "holiday": "Fiestas de Fin de Año",
+    "nightlife": "Eventos Nocturnos",
+    "fitness": "Fiestas de Fitness",
+    "weddingEvent": {
+      "header": "🎶 La Banda Sonora Perfecta para Tu Boda – Servicios de DJ para Cada Momento de Tu Día Especial 💍",
+      "SubHeader": "💍 La Banda Sonora de Tu Historia de Amor – Servicios Profesionales de DJ para Bodas 🎶",
+      "MiniHeader": "Haz que tu día de boda sea inolvidable con servicios expertos de DJ que abarcan desde la ceremonia hasta el último baile en la recepción. Nuestros DJs proporcionarán el ambiente musical perfecto para cada momento, desde la gran entrada hasta los bailes formales y el corte de pastel. Como maestros de ceremonia, nos aseguraremos de que las transiciones sean suaves durante todo el evento, manteniendo todo en horario y mejorando la celebración. ¡Déjanos crear una lista de reproducción personalizada que refleje tu estilo y marque el tono perfecto para tu día especial! Confía en nosotros para ser parte de la magia en tu boda."
+    },
+    "privateEvent": {
+      "header": "🎶 Celebra Cada Momento – Servicios de DJ para Eventos Sociales Inolvidables 🎉",
+      "SubHeader": "🎉 Celebra con Estilo – Servicios Profesionales de DJ para Eventos Sociales 🎶",
+      "MiniHeader": "Haz que tu próximo evento social sea memorable con servicios expertos de DJ diseñados para realzar cada momento. Ya sea una fiesta de cumpleaños, un aniversario, una reunión o cualquier ocasión especial, ofrecemos la banda sonora perfecta para mantener a tus invitados bailando y divirtiéndose. Desde canciones animadas para ambientar hasta listas de reproducción personalizadas que reflejan tu tema, nos aseguramos de que la música fluya sin problemas durante todo el evento. Nuestros DJs también se encargan de las funciones de maestro de ceremonias para transiciones suaves, anuncios y brindis, permitiéndote concentrarte en disfrutar de la celebración. ¡Déjanos crear la atmósfera perfecta para tu evento social!"
+    },
+    "schoolEvent": {
+      "header": "🎶 Eventos Escolares Inolvidables – Servicios de DJ para Prom, Bailes y Más 🎉",
+      "SubHeader": "🎓 Haz que Cada Momento Brille – Servicios Profesionales de DJ para Prom, Bailes Escolares y Eventos 🎉",
+      "MiniHeader": "¡Crea recuerdos inolvidables con nuestros servicios expertos de DJ para prom, bailes escolares y otros eventos escolares! Nos especializamos en tocar éxitos actuales de Top 40 y una variedad de géneros que atraen a los jóvenes, asegurando que la música mantenga a todos en la pista de baile. Desde los últimos éxitos hasta los clásicos atemporales, atendemos todos los gustos, manteniendo todo adecuado para toda la familia con versiones limpias de canciones populares. Ya sea un baile de bienvenida, una celebración de graduación o un evento temático escolar, nuestros DJs están dedicados a crear una atmósfera divertida y energética que haga que la noche sea memorable tanto para los estudiantes como para el personal. ¡Déjanos marcar el tono perfecto para el próximo gran evento de tu escuela!"
+    },
+    "corporateEvents": {
+      "header": "Servicios Profesionales de DJ para Tu Evento Corporativo",
+      "SubHeader": "🎵 Eleva Tu Evento Corporativo con Servicios Profesionales de DJ 🎵",
+      "MiniHeader": "¿Quieres hacer que tu evento corporativo sea inolvidable? Nuestros servicios de DJ son el complemento perfecto para cualquier ocasión, ya sea una gran apertura de tienda, una fiesta de oficina o un festival corporativo al aire libre. Proporcionamos listas de reproducción personalizadas para establecer el ambiente adecuado, desde canciones energéticas para celebraciones hasta música ambiental para eventos de networking. ¿Necesitas a alguien para gestionar los anuncios? También nos encargamos de eso: presentando a los oradores, promocionando ventas o destacando patrocinadores con profesionalismo. Con sistemas de sonido de alta calidad, iluminación personalizada y un DJ experimentado que sabe cómo mantener la energía viva, aseguraremos que tu evento se destaque. No solo planifiques un evento, crea una experiencia que tus invitados nunca olvidarán."
+    },
+    "birthdayEvents": {
+      "SubHeader": "🎶 Tu Evento, Tu Banda Sonora – Servicios Profesionales de DJ para Cada Ocasión 🎶",
+      "header": "🎉 Celebra los Momentos Especiales de la Vida con Servicios Expertos de DJ 🎉",
+      "MiniHeader1": "Haz que tus celebraciones de hitos sean inolvidables con servicios profesionales de DJ que marquen el ambiente perfecto para tu fiesta. Ya sea un cumpleaños número 40 o 50, un glamoroso Sweet 16 o una vibrante Quinceañera, tenemos la música, el equipo y la experiencia para hacer realidad tu visión.",
+      "MiniHeader2": "Para fiestas de cumpleaños, crearemos una banda sonora personalizada, ya sea con los éxitos de hoy o con canciones nostálgicas de tu época, como música de los 80 para una fiesta de 50 años. Desde fiestas íntimas en casa hasta grandes venues de hoteles, proporcionaremos sistemas de sonido de alta calidad y micrófonos para brindis, discursos y momentos emotivos.",
+      "MiniHeader3": "Para Sweet 16 y Quinceañeras, entendemos la importancia de estos eventos únicos en la vida. Curaremos listas de reproducción que reflejan tu gusto único, combinando éxitos modernos con tradiciones culturales. Espera una noche inolvidable llena de pistas de baile animadas, momentos emotivos y celebraciones que unan a todos.",
+      "MiniHeader4": "No importa la ocasión, nuestro DJ experimentado asegura que tu evento fluya sin problemas, manteniendo a los invitados entretenidos y la energía viva. ¡Hagamos que tu fiesta sea una celebración para recordar!"
+    },
+    "holidayEvents": {
+      "header": "🎶 Convertir Momentos en Recuerdos – Servicios de DJ de Primer Nivel para Cada Evento 🎶",
+      "SubHeader": "🎄🎃 Celebra las Fiestas con Servicios Expertos de DJ 🎉✨",
+      "MiniHeader1": "¡Trae la magia de la temporada a la vida con servicios profesionales de DJ para tus eventos festivos! Desde fiestas espeluznantes de Halloween hasta reuniones festivas de Navidad y deslumbrantes celebraciones de Año Nuevo, crearemos la banda sonora perfecta para cada ocasión. Con una mezcla de canciones icónicas de las fiestas como “All I Want for Christmas is You” o “Monster Mash”, y pistas de múltiples géneros adaptadas a tu evento, aseguramos que la música mantenga la energía viva y a los invitados entretenidos.",
+      "MiniHeader2": "¿Quieres algo aún más especial? Podemos incorporar ediciones únicas de canciones populares para las fiestas, como una versión de Halloween de una canción de éxito con efectos de sonido espeluznantes o truenos, e incluso usar muestras de sonido para mayor diversión. Ya sea una fiesta acogedora en casa o una gran celebración corporativa, nuestras listas de reproducción seleccionadas y equipos profesionales harán que tu evento sea inolvidable. ¡Vamos a convertir tu celebración navideña en una obra maestra musical!"
+    },
+    "nightlifeevents": {
+      "header": "🎧 Bares, Restaurantes y Discotecas – Creando Experiencias Nocturnas Inolvidables 🎤✨",
+      "SubHeader": "🎶 Desata la Noche – Servicios Excepcionales de DJ para Bares, Restaurantes y Clubs 🎶",
+      "MiniHeader1": "Mejora el ambiente de tus bares, restaurantes y clubs con servicios profesionales de DJ adaptados a cada vibra. Ya sea un animado brunch de domingo, una fiesta post-cena o una noche de alta energía en la pista de baile, nuestros DJs marcan el tono perfecto para tu local.",
+      "MiniHeader2": "Para bares y restaurantes, ofrecemos listas de reproducción de formato abierto que combinan éxitos contemporáneos de Top 40 con clásicos atemporales, asegurando una banda sonora continua que mantiene a los invitados entretenidos mientras cenan y beben. ¿Quieres añadir un toque extra de diversión? Incluso podemos proporcionar configuraciones de karaoke para entretenimiento interactivo.",
+      "MiniHeader3": "Para clubs, creamos experiencias electrizantes, gestionando el flujo de la pista de baile con precisión. Ya sea una noche temática centrada en géneros como hip hop o un evento de alto perfil en lugares como Las Vegas, Ibiza o Miami, nuestros DJs aportan energía y experiencia incomparables, tocando desde los últimos éxitos hasta temas originales.",
+      "MiniHeader4": "Estos eventos, a menudo denominados Servicios de DJ de Nocturnidad y Entretenimiento, están diseñados para cautivar a tu audiencia y hacer que regresen por más. ¡Hagamos de tu lugar el destino perfecto para noches inolvidables!"
+    },
+    "fitnessEvents": {
+      "header": "💪 Potencia tu Entrenamiento – Servicios de DJ de Alta Energía para Gimnasios y Clases de Fitness 🎶",
+      "SubHeader": "🎧 Potencia tu Entrenamiento – Servicios de DJ para Gimnasios y Clases de Fitness 💪",
+      "MiniHeader": "¡Mantén la energía en tus sesiones de gimnasio con servicios de DJ en vivo que traen emoción y energía a cada entrenamiento! Ya sea una clase de fitness de alta intensidad o una sesión general en el gimnasio, nuestros DJs proporcionan la mezcla perfecta de EDM, hip hop y otros géneros de alta energía para mantener a tus miembros motivados y en movimiento. Desde sets en vivo durante clases grupales hasta ritmos de fondo que mejoran la atmósfera mientras los asistentes levantan pesas o completan circuitos, nos aseguramos de que la música impulse cada repetición y cada paso. ¡Vamos a hacer que tu gimnasio sea un lugar donde los beats nunca paren!"
+    }
   },
-  {
-    "text": "¡Me encantó! ¡Me divertí muchísimo! ¡Eres EL MEJOR!"
-  },
-  {
-    "text": "¡Wow! ¡Hiciste que mi fiesta de 16 años fuera inolvidable! El ambiente que creaste fue perfecto, ¡me sentí como en un concierto! 🎤🔥 La forma en que mezclaste las canciones mantuvo a todos emocionados. ¿Cómo podemos contratarte de nuevo para otro evento? ¡Mi prima quiere la misma vibra para su fiesta de 16 años!"
-  },
-  {
-    "text": "¡Muchas personas me dijeron que les encantaste! Siempre te recomendaré si alguien pregunta. 😊"
-  },
-  {
-    "text": "¡Hiciste que mi Quinceañera fuera mágica! La música fue exactamente lo que imaginé y realmente marcó el ambiente de todo el evento. Desde canciones tradicionales hasta los últimos éxitos, todos la pasaron increíble. 🌟🎶 Definitivamente quiero la misma energía para la Quinceañera de mi prima. ¿Podemos contratarte para eso también?"
-  },
-  {
-    "text": "¡Gracias por hacer que nuestro evento fuera tan memorable!"
-  },
-  {
-    "text": "¡Holaaaa!!! ¡Muchas muchas gracias por anoche! ¡Todo fue increíble y a la gente LE ENCANTÓ la música! ¡La vibra fue inmaculada! ¡Gracias, gracias, gracias!"
-  },
-  {
-    "text": "¡Gracias por hacer que nuestra boda fuera inolvidable! La música fue perfecta y la energía increíble. ¡Tuvimos invitados en la pista de baile toda la noche! 🎶💍"
-  },
-  {
-    "text": "¡Fantástico trabajo en nuestro evento! El ambiente fue animado y mezclaste la música perfectamente para el público. ¡Nuestro equipo se divirtió muchísimo!"
-  },
-  {
-    "text": "¡La fiesta no hubiera sido la misma sin ti! ¡Tu lista de canciones fue perfecta y la vibra eléctrica! ¡La mejor experiencia con un DJ!"
-  },
-  {
-    "text": "¡Sin duda el mejor DJ de la ciudad! Los ritmos me mantuvieron bailando toda la noche. La multitud estaba emocionada y las transiciones entre canciones fueron impecables. 🔥"
-  },
-  {
-    "text": "¡Set épico en el festival! Tu energía era contagiosa y la calidad del sonido fue increíble. ¡No puedo esperar para verte actuar de nuevo! 🎧🎉"
-  },
-  {
-    "text": "¡Gracias por hacer que mi cumpleaños fuera una noche para recordar! Tocaste todas mis canciones favoritas y mantuviste la fiesta toda la noche. 🎂🎶"
-  },
-  {
-    "text": "¡La vibra que creaste en la fiesta en la playa fue increíble! Las canciones coincidieron perfectamente con el atardecer y fue la mejor manera de cerrar el fin de semana. 🌊🎶"
-  },
-  {
-    "text": "¡Qué vibra tan épica en nuestro evento fitness! Tu música nos mantuvo motivados y con energía todo el tiempo. Las canciones animadas fueron perfectas para nuestras sesiones de ejercicio. 💪🎧 ¡Ya mucha gente nos pregunta dónde te encontramos! ¿Puedes ser DJ en nuestro próximo evento fitness?"
-  },
-  {
-    "text": "¡Muchas gracias por ser parte de nuestro baile escolar! La música realmente marcó el tono de la noche y todos bailaron de principio a fin. 🎧📚 Fue una mezcla perfecta de canciones animadas y clásicos para que todos lo disfrutaran. ¿Estarás disponible para nuestro próximo evento? ¡Queremos la misma vibra otra vez!"
-  }
-]
-
-  },
- "events": {
-  "title": "Eventos",
-  "description": "DJ Parce tiene experiencia en todo tipo de eventos, desde bodas hasta arenas. Donde sea que toque, hará que la multitud se mueva.",
-  "wedding": "Bodas",
-  "private": "Eventos Sociales",
-  "school": "Eventos Escolares",
-  "birthdays": "Cumpleaños",
-  "corporate": "Eventos Corporativos",
-  "holiday": "Fiestas Navideñas",
-  "nightlife": "Eventos Nocturnos",
-  "fitness": "Fiestas de Fitness",
-  "weddingEvent": {
-    "header": "🎶 La Banda Sonora Perfecta para tu Boda – Servicios de DJ para Cada Momento de tu Gran Día 💍",
-    "SubHeader": "💍 La Banda Sonora de tu Historia de Amor – Servicios Profesionales de DJ para Bodas 🎶",
-    "MiniHeader": "Haz que tu día de boda sea inolvidable con servicios expertos de DJ que van desde la ceremonia hasta el último baile en la recepción. Nuestros DJs proporcionarán la banda sonora perfecta para cada momento, desde la gran entrada hasta los bailes formales y el corte del pastel. Como presentadores, nos aseguramos de que las transiciones sean suaves, manteniendo todo en horario y mejorando la celebración. Déjanos crear una lista de reproducción personalizada que refleje tu estilo y marque el tono perfecto para tu día especial. ¡Confía en nosotros para ser parte de la magia en tu boda!"
-  },
-  "privateEvent": {
-    "header": "🎶 Celebra Cada Momento – Servicios de DJ para Eventos Sociales Inolvidables 🎉",
-    "SubHeader": "🎉 Celebra con Estilo – Servicios Profesionales de DJ para Eventos Sociales 🎶",
-    "MiniHeader": "Haz que tu próximo evento social sea memorable con servicios expertos de DJ diseñados para elevar cada momento. Ya sea una fiesta de cumpleaños, un aniversario, una reunión o cualquier ocasión especial, proporcionamos la banda sonora perfecta para mantener a tus invitados bailando y disfrutando. Desde canciones alegres para establecer el ambiente hasta listas de reproducción personalizadas que reflejan tu tema, aseguramos que la música fluya sin problemas durante todo el evento. Nuestros DJs también se encargan de las funciones de presentador para transiciones suaves, anuncios y brindis, permitiéndote disfrutar de la celebración. ¡Déjanos crear el ambiente perfecto para tu evento social!"
-  },
-  "schoolEvent": {
-    "header": "🎶 Eventos Escolares Inolvidables – Servicios de DJ para Proms, Bailes y Más 🎉",
-    "SubHeader": "🎓 Haz que Cada Momento Brille – Servicios Profesionales de DJ para Proms, Bailes Escolares y Eventos 🎉",
-    "MiniHeader": "¡Crea recuerdos inolvidables con nuestros servicios expertos de DJ para Proms, bailes escolares y otros eventos escolares! Nos especializamos en tocar los éxitos actuales de Top 40 y una variedad de géneros que atraen a las multitudes jóvenes, asegurando que la música mantenga a todos en la pista de baile. Desde los últimos éxitos hasta los clásicos atemporales, nos adaptamos a todos los gustos, manteniendo todo limpio con versiones apropiadas para la familia. Ya sea un baile de bienvenida, una celebración de graduación o un evento temático escolar, nuestros DJs se dedican a crear una atmósfera divertida y energética que hará que la noche sea memorable para estudiantes y personal. ¡Déjanos establecer el tono perfecto para el próximo gran evento de tu escuela!"
-  },
-  "corporateEvents": {
-    "header": "Servicios Profesionales de DJ para Tu Evento Corporativo",
-    "SubHeader": "🎵 Eleva tu Evento Corporativo con Servicios Profesionales de DJ 🎵",
-    "MiniHeader": "¿Buscas hacer que tu evento corporativo sea inolvidable? Nuestros servicios de DJ son la adición perfecta para cualquier ocasión, ya sea una gran inauguración de tienda, una fiesta de oficina o un festival corporativo al aire libre. Proporcionamos listas de reproducción personalizadas para establecer el ambiente adecuado, desde pistas enérgicas para celebraciones hasta música ambiental para eventos de networking. ¿Necesitas a alguien para manejar los anuncios? También nos encargamos de eso, presentando a los oradores, promoviendo ventas o destacando patrocinadores con profesionalismo. Con sistemas de sonido de alta calidad, iluminación personalizada y un DJ experimentado que sabe cómo mantener viva la energía, nos aseguramos de que tu evento se destaque. No solo planees un evento, ¡crea una experiencia que tus invitados nunca olvidarán!"
-  },
-  "birthdayEvents": {
-    "SubHeader": "🎶 Tu Evento, Tu Banda Sonora – Servicios Profesionales de DJ para Cualquier Ocasión 🎶",
-    "header": "🎉 Celebra los Momentos Especiales de la Vida con Servicios de DJ Expertos 🎉",
-    "MiniHeader1": "Haz que tus celebraciones de hitos sean inolvidables con servicios profesionales de DJ que establecen el ambiente perfecto para tu fiesta. Ya sea que estés organizando un 40º o 50º cumpleaños, un glamoroso Sweet 16 o una vibrante Quinceañera, tenemos la música, el equipo y la experiencia para hacer realidad tu visión.",
-    "MiniHeader2": "Para las fiestas de cumpleaños, crearemos una banda sonora personalizada, ya sean los éxitos de hoy o canciones nostálgicas de tu época, como música de los 80 para una fiesta de 50 años. Desde fiestas íntimas en casa hasta grandes eventos en hoteles, proporcionaremos sistemas de sonido de alta calidad y micrófonos para brindis, discursos y momentos emotivos.",
-    "MiniHeader3": "Para los Sweet 16 y las Quinceañeras, entendemos la importancia de estos eventos únicos. Curaremos listas de reproducción que reflejan tu gusto único, combinando éxitos modernos con tradiciones culturales. Espera una noche inolvidable llena de pistas de baile animadas, momentos emotivos y celebraciones que reúnen a todos.",
-    "MiniHeader4": "No importa la ocasión, nuestro DJ experimentado garantiza que tu evento fluya sin problemas, manteniendo a los invitados entretenidos y la energía alta. ¡Hagamos de tu fiesta una celebración que nunca olvidarás!"
-  },
-  "holidayEvents": {
-    "header": "🎶 Transformando Momentos en Recuerdos – Servicios de DJ de Primera para Cada Evento 🎶",
-    "SubHeader": "🎄🎃 Celebra las Fiestas con Servicios Expertos de DJ 🎉✨",
-    "MiniHeader1": "¡Haz que la magia de la temporada cobre vida con nuestros servicios profesionales de DJ para tus eventos navideños! Desde fiestas espeluznantes de Halloween hasta reuniones festivas de Navidad y deslumbrantes celebraciones de Año Nuevo, creamos la banda sonora perfecta para cada ocasión. Con una mezcla de canciones icónicas como “All I Want for Christmas is You” o “Monster Mash” y pistas de varios géneros adaptadas a tu evento, aseguramos que la música mantenga viva la energía y entretenga a los invitados.",
-    "MiniHeader2": "¿Quieres algo aún más especial? Podemos incorporar ediciones únicas de canciones populares para las fiestas, como una versión de Halloween de una canción popular con efectos de sonido espeluznantes o truenos, ¡e incluso usar muestras de sonido para mayor diversión! Ya sea una fiesta acogedora en casa o una gran celebración corporativa, nuestras listas de reproducción curadas y nuestro equipo profesional harán que tu evento sea inolvidable. ¡Convirtamos tu celebración navideña en una obra maestra musical!"
-  },
-  "nightlifeevents": {
-    "header": "🎧 Bares, Restaurantes y Discotecas – Creando Experiencias Inolvidables en la Vida Nocturna 🎤✨",
-    "SubHeader": "🎶 Desata la Noche – Servicios Excepcionales de DJ para Bares, Restaurantes y Clubes 🎶",
-    "MiniHeader1": "Mejora la atmósfera de tus bares, restaurantes y discotecas con servicios profesionales de DJ adaptados a cada ambiente. Ya sea un animado brunch de domingo, una fiesta posterior a la cena o una noche de alta energía en la pista de baile, nuestros DJs establecen el tono perfecto para tu lugar.",
-    "MiniHeader2": "Para bares y restaurantes, ofrecemos listas de reproducción de formato abierto que combinan éxitos contemporáneos de Top 40 con clásicos atemporales, asegurando una banda sonora sin interrupciones que mantiene a los invitados entretenidos mientras cenan y beben. ¿Quieres agregar una capa extra de diversión? También podemos proporcionar equipos de karaoke para entretenimiento interactivo.",
-    "MiniHeader3": "Para discotecas, creamos experiencias electrizantes, manejando el flujo de la pista de baile con precisión. Ya sea una noche temática centrada en géneros como el hip hop o un evento de alto perfil en lugares como Las Vegas, Ibiza o Miami, nuestros DJs aportan energía y experiencia incomparables, pinchando desde los últimos éxitos hasta sus propias canciones originales.",
-    "MiniHeader4": "Estos eventos, a menudo llamados Servicios de DJ de Vida Nocturna y Entretenimiento, están diseñados para cautivar a tu audiencia y hacer que regresen por más. ¡Hagamos que tu lugar sea el destino definitivo para noches inolvidables!"
-  },
-  "fitnessEvents": {
-    "header": "💪 Impulsa tu Entrenamiento – Servicios de DJ de Alta Energía para Gimnasios y Clases de Fitness 🎶",
-    "SubHeader": "🎧 Potencia tu Entrenamiento – Servicios de DJ para Gimnasios y Clases de Fitness 💪",
-    "MiniHeader": "¡Mantén tus sesiones de gimnasio animadas con servicios en vivo de DJ que traen energía y emoción a cada entrenamiento! Ya sea en una clase de fitness de alta intensidad o en una sesión general de gimnasio, nuestros DJs proporcionan la mezcla perfecta de EDM, hip hop y otros géneros de alta energía para mantener a tus miembros motivados y en movimiento. Desde sesiones en vivo durante clases grupales hasta ritmos de fondo que elevan la atmósfera mientras los asistentes levantan pesas o completan circuitos, nos aseguramos de que la música impulse cada repetición y paso. ¡Hagamos de tu gimnasio un lugar donde los ritmos nunca se detengan!"
-  }
-},
-
-
   "contact": {
-    "title": "¡Vamos a Empezar la Fiesta!",
+    "title": "Vamos a Empezar esta Fiesta",
     "intro": "¡Cuéntanos sobre tu evento y nos pondremos en contacto para hacerlo inolvidable!",
     "form": {
       "firstName": "Nombre",
@@ -181,11 +175,11 @@
       "eventBudget": "Presupuesto del Evento",
       "eventType": "Tipo de Evento",
       "eventDetails": "Detalles del Evento",
-      "hearAboutUs": "¿Cómo te enteraste de nosotros?",
+      "hearAboutUs": "¿Cómo nos conociste?",
       "contactInformation": "Información de Contacto",
       "eventDetailsSection": "Detalles del Evento",
       "additionalInformation": "Información Adicional",
-      "selectEventType": "Seleccionar Tipo de Evento",
+      "selectEventType": "Selecciona el Tipo de Evento",
       "socialMedia": "Redes Sociales",
       "friendFamily": "Amigo o Familia",
       "onlineSearch": "Búsqueda en Línea",
@@ -193,97 +187,98 @@
       "selectOption": "Seleccionar Opción",
 
       "services": "Servicios",
-      "serviceDetails": "Por favor, proporcione detalles sobre los servicios que requiere",
+      "serviceDetails": "Por favor proporciona detalles sobre los servicios que necesitas",
+      "dj": "Entretenimiento DJ",
+      "venues": "Lugares",
       "chairs": "Sillas",
-      "selectChairType": "Seleccionar tipo de silla",
+
+      "selectChairType": "Selecciona Tipo de Silla",
       "chiavariChairs": "Sillas Chiavari",
       "barstools": "Taburetes",
-      "foldingChairs": "Sillas plegables",
-      "kidsSeating": "Asientos para niños",
+      "foldingChairs": "Sillas Plegables",
+      "kidsSeating": "Asientos para Niños",
       "undecided": "Indeciso",
-        "dj": "Entretenimiento DJ",
-  "venues": "Lugares",
-      "specifyChairType": "Por favor, especifique el tipo de silla",
-      "numberOfChairs": "Número de sillas",
+      "specifyChairType": "Especifica el Tipo de Silla",
+      "numberOfChairs": "Número de Sillas",
       "tables": "Mesas",
-      "selectTableType": "Seleccionar tipo de mesa",
-      "roundPedestal": "Mesa redonda pedestal",
+      "selectTableType": "Selecciona Tipo de Mesa",
+      "roundPedestal": "Mesa Redonda Pedestal",
       "pedestal": "Pedestal",
-      "kidFriendlySeating": "Asientos aptos para niños",
-      "farmTables": "Mesas de granja",
-      "picnicTables": "Mesas de picnic",
+      "kidFriendlySeating": "Asientos para Niños",
+      "farmTables": "Mesas de Granja",
+      "picnicTables": "Mesas de Picnic",
       "rectangular": "Rectangular",
-      "conferenceTables": "Mesas de conferencia",
-      "serpentineTables": "Mesas serpentina",
-      "barHeightTables": "Mesas de altura de bar",
-      "specifyTableType": "Por favor, especifique el tipo de mesa",
-      "numberOfTables": "Número de mesas",
+      "conferenceTables": "Mesas de Conferencia",
+      "serpentineTables": "Mesas Serpente",
+      "barHeightTables": "Mesas Altas de Bar",
+      "specifyTableType": "Especifica el Tipo de Mesa",
+      "numberOfTables": "Número de Mesas",
       "bar": "Barra",
-      "numberOfGuests": "Número de invitados (Opcional)",
-      "selectAlcoholTypes": "Seleccionar tipos de alcohol",
+      "numberOfGuests": "Número de Invitados (Opcional)",
+      "selectAlcoholTypes": "Selecciona Tipos de Alcohol",
       "beer": "Cerveza",
       "wine": "Vino",
       "whiskey": "Whiskey",
       "vodka": "Vodka",
       "rum": "Ron",
       "gin": "Ginebra",
-      "specifyAlcoholType": "Por favor, especifique el tipo de alcohol",
+      "specifyAlcoholType": "Especifica el Tipo de Alcohol",
       "tents": "Carpas",
-      "selectTentSize": "Seleccionar tamaño de carpa",
+      "selectTentSize": "Selecciona el Tamaño de la Carpa",
       "small": "Pequeña",
       "medium": "Mediana",
       "large": "Grande",
-      "specifyTentSize": "Por favor, especifique el tamaño de la carpa",
-      "numberOfTents": "Número de carpas",
+      "specifyTentSize": "Especifica el Tamaño de la Carpa",
+      "numberOfTents": "Número de Carpas",
       "catering": "Catering",
-      "selectMeats": "Seleccionar carnes",
+      "selectMeats": "Selecciona Carnes",
       "chicken": "Pollo",
-      "beef": "Carne de res",
+      "beef": "Carne de Res",
       "pork": "Cerdo",
       "fish": "Pescado",
       "lamb": "Cordero",
       "turkey": "Pavo",
       "duck": "Pato",
-      "selectSalads": "Seleccionar ensaladas",
+      "selectSalads": "Selecciona Ensaladas",
       "caesarSalad": "Ensalada César",
-      "greekSalad": "Ensalada griega",
-      "coleslaw": "Ensalada de col",
-      "capreseSalad": "Ensalada caprese",
-      "potatoSalad": "Ensalada de papa",
-      "pastaSalad": "Ensalada de pasta",
-      "selectAppetizers": "Seleccionar aperitivos",
+      "greekSalad": "Ensalada Griega",
+      "coleslaw": "Ensalada de Col",
+      "capreseSalad": "Ensalada Caprese",
+      "potatoSalad": "Ensalada de Papas",
+      "pastaSalad": "Ensalada de Pasta",
+      "selectAppetizers": "Selecciona Aperitivos",
       "bruschetta": "Bruschetta",
-      "springRolls": "Rollitos de primavera",
-      "cheesePlatter": "Plato de quesos",
-      "stuffedMushrooms": "Champiñones rellenos",
-      "miniQuiches": "Mini quiches",
+      "springRolls": "Rollitos de Primavera",
+      "cheesePlatter": "Tabla de Quesos",
+      "stuffedMushrooms": "Champiñones Rellenos",
+      "miniQuiches": "Mini Quiches",
       "meatballs": "Albóndigas",
-      "selectDesserts": "Seleccionar postres",
-      "chocolateCake": "Pastel de chocolate",
-      "fruitTart": "Tarta de frutas",
+      "selectDesserts": "Selecciona Postres",
+      "chocolateCake": "Pastel de Chocolate",
+      "fruitTart": "Tarta de Frutas",
       "iceCream": "Helado",
-      "cheesecake": "Tarta de queso",
+      "cheesecake": "Tarta de Queso",
       "brownies": "Brownies",
       "cupcakes": "Cupcakes",
-      "customMenu": "Menú personalizado",
-      "customMenuPlaceholder": "Por favor, especifique su menú personalizado",
+      "customMenu": "Menú Personalizado",
+      "customMenuPlaceholder": "Por favor especifica tu menú personalizado",
 
       "photography": "Fotografía",
-      "limos": "Limos y Autobuses para Fiestas",
+      "limos": "Limusinas y Autobuses de Fiesta",
       "painting": "Pintura Facial",
-      "paintingpeoplenb": "Número de personas para Pintura Facial",
-      "limo/bus": "Limo o Autobús para Fiesta",
-      "limo/buspeoplenb": "Número de personas para el Limo/Autobús para Fiesta",
-      "Chooselimoorbus": "Elige Limo o Autobús para Fiesta",
-      "chooselimo": "Limo",
-      "choosebus": "Autobús para Fiesta"
+      "paintingpeoplenb": "Número de Personas para Pintura Facial",
+      "limo/bus": "Limusina o Autobús de Fiesta",
+      "limo/buspeoplenb": "Número de Personas para Limusina/ Autobús de Fiesta",
+      "Chooselimoorbus": "Elige Limusina o Autobús de Fiesta",
+      "chooselimo": "Limusina",
+      "choosebus": "Autobús de Fiesta"
     },
-    "selectEventType": "Seleccionar Tipo de Evento",
+    "selectEventType": "Selecciona un Tipo de Evento",
     "other": "Otro",
     "events": {
       "wedding": "Boda",
       "private": "Evento Social",
-      "school": "Función Escolar",
+      "school": "Evento Escolar",
       "corporate": "Evento Corporativo",
       "holiday": "Fiesta de Vacaciones",
       "nightlife": "Evento Nocturno",
@@ -293,7 +288,7 @@
       "email": "DjParce.nc@gmail.com",
       "social": {
         "instagram": "https://www.instagram.com/dj_parce_nc/",
-        "facebook": "https://facebook.com/deejayonechance"
+        "facebook": "https://facebook.com"
       }
     },
     "directContact": {
@@ -309,182 +304,174 @@
       "Success": "¡Éxito!",
       "Error": "¡Error!",
       "sendingMessage": "Enviando tu mensaje...",
-      "errorMessage": "¡Ups! Algo salió mal. Por favor, intenta de nuevo más tarde.",
-      "successMessage": "¡Tu solicitud ha sido enviada con éxito! Alguien se pondrá en contacto contigo pronto."
+      "errorMessage": "¡Ups! Algo salió mal. Por favor intenta nuevamente más tarde.",
+      "successMessage": "¡Tu solicitud ha sido enviada exitosamente! Alguien se pondrá en contacto contigo pronto"
     }
   },
   "above": {
     "header": {
       "line1": "CÓMO VAMOS MÁS ALLÁ",
       "line2": "PARA HACER TU EVENTO",
-      "line3": "INOLVIDABLE"
+      "line3": "EXTRAORDINARIO"
     },
     "features": {
       "personal": {
-        "title": "Personal",
-        "description": "Trabajas con tu DJ desde el principio del proceso."
+        "title": "Personalizado",
+        "description": "Trabajas directamente con tu DJ desde el inicio del proceso."
       },
       "prepared": {
-        "title": "Preparado",
-        "description": "Siempre llegamos temprano y nunca nos toman desprevenidos."
+        "title": "Preparados",
+        "description": "Siempre llegamos temprano y nunca nos sorprendemos."
       },
       "experience": {
         "title": "Experiencia",
-        "description": "Miles de eventos divertidos y exitosos en nuestro historial."
+        "description": "Miles de eventos divertidos y exitosos en nuestro haber."
       },
       "attentive": {
-        "title": "Atento",
-        "description": "Descubrimos exactamente lo que quieres y lo hacemos realidad."
+        "title": "Atentos",
+        "description": "Nos aseguramos de saber exactamente lo que quieres y lo hacemos realidad."
       }
     }
   },
+
   "above2": {
-  "header": {
-    "line1": "CÓMO VAMOS MÁS ALLÁ",
-    "line2": "PARA HACER TU EVENTO",
-    "line3": "INOLVIDABLE"
-  },
-  "features": {
-    "collaboration": {
-      "title": "Coordinación Perfecta",
-      "description": "Trabajamos estrechamente contigo y con todos los demás proveedores para asegurar que todo salga a la perfección."
+    "header": {
+      "line1": "CÓMO VAMOS MÁS ALLÁ",
+      "line2": "PARA HACER TU EVENTO",
+      "line3": "INOLVIDABLE"
     },
-    "music": {
-      "title": "Sonido de Calidad Excepcional",
-      "description": "Nuestros sistemas de sonido de primera categoría crean la atmósfera perfecta durante tu ceremonia y recepción."
-    },
-    "energy": {
-      "title": "Energía Vibrante",
-      "description": "Llevamos energía alta a tu evento, manteniendo a la multitud comprometida y bailando toda la noche."
-    },
-    "capture": {
-      "title": "Momentos Memorables",
-      "description": "Nos aseguramos de que tus momentos especiales sean capturados con precisión y atención al detalle."
+    "features": {
+      "collaboration": {
+        "title": "Coordinación Perfecta",
+        "description": "Trabajamos estrechamente contigo y con todos los demás proveedores para asegurar que todo salga a la perfección."
+      },
+      "music": {
+        "title": "Calidad de Sonido Excepcional",
+        "description": "Nuestros sistemas de sonido de primer nivel crean la atmósfera perfecta durante toda tu ceremonia y recepción."
+      },
+      "energy": {
+        "title": "Energía Vibrante",
+        "description": "Llevamos energía a tu evento, manteniendo al público involucrado y bailando toda la noche."
+      },
+      "capture": {
+        "title": "Momentos Memorables",
+        "description": "Nos aseguramos de que tus momentos especiales sean capturados con precisión y atención al detalle."
+      }
     }
-  }
-},
+  },
   "parallel": {
-    "headerText": "El Entretenimiento de Boda de tus Sueños",
-    "paragraphText": "Ya te has comprometido con el amor de tu vida, ahora es el momento de elegir al DJ que hará que tu boda sea inolvidable. Después de toda la planificación, finalmente ha llegado tu día especial.",
+    "headerText": "La Entretenimiento Soñado para Tu Boda",
+    "paragraphText": "Ya te has comprometido con el amor de tu vida, ahora es momento de elegir al DJ que hará que tu boda sea inolvidable. Después de toda la planificación, tu día especial finalmente ha llegado.",
     "buttonText": "QUÉ ESPERAR"
   },
   "faq": {
     "question1": "¿El DJ aceptará solicitudes?",
-    "answer1": "DJ Parce acepta solicitudes de canciones y a menudo las incorpora en la lista de reproducción. Sin embargo, las solicitudes de los invitados son cuidadosamente filtradas. Si una canción o género está en tu lista de 'No Reproducir', no se reproducirá. Por otro lado, si una canción solicitada coincide con el ambiente y las preferencias musicales que elegiste, DJ Parce podría incluirla. Como un profesional experimentado en eventos, DJ Parce sabe cómo animar la pista de baile y evitar las canciones que podrían no resonar con el público. A diferencia de simplemente reproducir un set prehecho, DJ Parce ajusta la música en tiempo real para adaptarse a la energía de la audiencia. Además, hay un sistema de planificación en línea disponible para que puedas compartir tus preferencias musicales y canciones favoritas antes del evento, asegurando una experiencia personalizada y fluida.",
-    
-    "question2": "¿Podemos traer nuestra propia música para que el DJ la toque?",
-    "answer2": "¡Por supuesto! Asociarse con un DJ profesional para bodas o eventos, como DJ Parce, asegura que tus preferencias musicales sean escuchadas y acomodadas. Si bien la flexibilidad es clave, DJ Parce normalmente solicita tus selecciones musicales por adelantado para garantizar una planificación y ejecución sin problemas. Proporcionar tus canciones con antelación permite que todo esté listo y preparado para tu gran día. Dicho esto, si tienes inspiración de última hora durante el evento, DJ Parce puede adaptarse y agregar canciones en el momento, combinando la preparación con flexibilidad para una experiencia impecable.",
-    
-    "question3": "¿Cuáles son tus condiciones de pago?",
-    "answer3": "Para asegurar a DJ Parce para tu evento, solo se necesita un depósito. Este depósito reserva tu fecha y se aplicará al saldo final. El monto restante se debe pagar dos semanas antes del evento. Para hacerlo más fácil y conveniente, aceptamos pagos a través de débito, crédito, Venmo o PayPal. Para más detalles sobre precios, no dudes en contactarnos.",
-    
-    "question4": "¿Cuándo debería reservar mi DJ?",
-    "answer4": "Recomendamos reservar al menos con 1 mes de antelación, especialmente durante las temporadas altas.",
-    
+    "answer1": "DJ Vroomx3 y DJ Parce aceptan solicitudes de canciones e incorporan frecuentemente en la lista de reproducción. Sin embargo, las solicitudes de los invitados son cuidadosamente filtradas. Si una canción o género está en tu lista de \"No Reproducir\", no se reproducirá. Por otro lado, si una canción solicitada coincide con la vibra y preferencias musicales elegidas, DJ Vroomx3 y DJ Parce podrían incluirla. Como profesionales experimentados, DJ Vroomx3 y DJ Parce saben cómo energizar la pista de baile y evitar canciones que puedan no resonar con la audiencia. A diferencia de simplemente reproducir un set pre-hecho, DJ Vroomx3 y DJ Parce ajusta la música en tiempo real para coincidir con la energía del público. Además, se ofrece un sistema de planificación en línea para que puedas compartir tus preferencias musicales y canciones favoritas antes del evento, asegurando una experiencia personalizada y sin inconvenientes.",
+
+    "question2": "¿Podemos traer nuestra propia música para que el DJ la ponga?",
+    "answer2": "¡Por supuesto! Trabajar con un DJ profesional de bodas o eventos, como DJ Vroomx3 y DJ Parce, asegura que tus preferencias musicales sean escuchadas y acomodadas. Aunque la flexibilidad es clave, DJ Vroomx3 y DJ Parce normalmente solicita tus selecciones musicales por adelantado para asegurar una planificación y ejecución sin problemas. Proporcionar tus elecciones de canciones con anticipación permite que todo esté listo para el gran día. Dicho esto, si tienes inspiraciones de última hora durante el evento, DJ Vroomx3 y DJ Parce puede adaptarse y añadir canciones al momento, combinando la preparación con la flexibilidad para una experiencia impecable.",
+
+    "question3": "¿Cuáles son tus términos de pago?",
+    "answer3": "Para asegurar a DJ Vroomx3 y DJ Parce para tu evento, lo único que se necesita para comenzar es un depósito. Este depósito reserva tu fecha y se aplicará al saldo final. El monto restante debe ser pagado dos semanas antes de tu evento. Para mantener las cosas simples y convenientes, aceptamos pagos a través de débito, crédito, Venmo o PayPal. Para más detalles sobre precios, no dudes en contactarnos.",
+
+    "question4": "¿Cuándo debo reservar a mi DJ?",
+    "answer4": "Recomendamos reservar al menos 1 mes antes, especialmente en temporadas altas.",
+
     "question5": "¿Qué servicios ofreces?",
-    "answer5": "Puedes elegir las canciones que te gustaría escuchar en tu evento, así como las que prefieres evitar, directamente con tu DJ. El número de canciones que solicites depende completamente de ti, pero recomendamos proporcionar al menos de 10 a 15 canciones de diferentes géneros y artistas. También es útil mencionar cualquier canción o artista que no quieras que se toque. Si tienes muchas solicitudes de canciones, ten en cuenta las limitaciones de tiempo de tu evento. Durante tu consulta inicial, tu DJ discutirá tus preferencias musicales para asegurarse de que todo se alinee con tu visión para el evento.",
-  
+    "answer5": "Puedes elegir las canciones que te gustaría escuchar en tu evento, así como las que prefieres evitar, directamente con tu DJ. La cantidad de canciones que solicites depende totalmente de ti, pero recomendamos proporcionar al menos 10-15 canciones de diferentes géneros y artistas. También es útil mencionar cualquier canción o artista que no quieras que se reproduzca. Si tienes muchas solicitudes de canciones, solo ten en cuenta las limitaciones de tiempo de tu evento. Durante tu consulta inicial, tu DJ discutirá tus preferencias musicales para asegurarse de que todo esté alineado con tu visión para el evento.",
+
     "contact": {
       "text": "¿No ves la tuya?",
-      "linkText": "Contáctanos",
       "header": "PREGUNTAS FRECUENTES",
-"text1": "Obtén algunas respuestas",
-"text2": "Aquí están algunas de nuestras preguntas más frecuentes"
-
+      "text1": "Obtén Algunas Respuestas",
+      "text2": "Aquí están algunas de nuestras preguntas más frecuentes",
+      "linkText": "Contáctanos"
     },
-    
+
     "parallax": {
       "heading": "¿Listo para empezar?",
       "buttonText": "Comencemos",
       "subHeading": "¿Aún tienes preguntas?",
-      "buttonTextHelp": "Estamos aquí para ayudar"
-    }
-},
-"feed": {
-  "Feed": "Alimentación",
-  "Mini": "Síguenos en Instagram"
-
-},
-"packages":{
-"description": "Nuestros paquetes personalizables están diseñados para hacer que la planificación de eventos sea sencilla, ya sea que estés organizando una reunión íntima o una gran celebración. Ofrecemos una amplia gama de servicios, incluyendo DJs, catering, coctelería y más, lo que te permite combinar y personalizar para crear la experiencia perfecta. Con acceso a una red confiable de proveedores profesionales, garantizamos que cada detalle se maneje con cuidado, ofreciendo servicios de alta calidad adaptados a tus necesidades. Ya sea una boda, evento corporativo o fiesta privada, estamos aquí para hacer realidad tu visión sin complicaciones.",
- "section1": "Eventos",
-"section2": "Servicios",
-"packagecont": {
-  "header": "EVENTOS Y SERVICIOS",
-  "header1":"Eventos Y Servicios"
-},
-"footer":{
-  "packages":"Paquetes",
-  "services":"Servicios",
-  "events":"Eventos"
-}
-
-},
-
-
-"services": {
-  "header": "¡Combinaciones de opciones para hacer realidad tu visión sin esfuerzo!",
-  "parallax": "✨ ¿LISTO PARA COMENZAR? ✨",
-  "servicesmain": {
-    "header": "Nuestros Servicios",
-    "description": "Explora nuestra amplia gama de servicios diseñados para satisfacer las necesidades de tu evento, desde DJs y catering hasta bartending y más. Si hay algo que no ves listado, no dudes en contactarnos y haremos todo lo posible para acomodar tu solicitud.",
-    "desc2": "✨ Soluciones Completas para Eventos – Sillas, Mesas, Carpas, Catering, Bartending y Más. ✨",
-    "options": {
-      "dj": "Entretenimiento DJ",
-      "venues": "Lugares",
-      "catering": "Catering",
-      "bar": "Bartendering",
-      "chairs": "Sillas y Mesas",
-      "tents": "Carpas",
-      "limo": "Limos y Autobuses para Fiestas",
-      "photo": "Fotografía",
-      "painting": "Pintura Facial"
+      "buttonTextHelp": "Estamos aquí para ayudarte"
     }
   },
-  "venues": {
-    "header": "🏰 Celebra con Estilo – Impresionantes Lugares para Cada Ocasión ✨",
-    "SubHeader": "🌟 Tu Lugar Perfecto Te Espera – Servicios de Expertos para Cualquier Ocasión 🌟",
-    "MiniHeader": "Déjanos ayudarte a encontrar el lugar ideal para tu próximo evento, ya sea una boda, reunión corporativa, celebración de un hito o un encuentro íntimo. Nos especializamos en conectarte con lugares que se adaptan a tus necesidades únicas, ofreciendo recomendaciones personalizadas basadas en tu estilo y preferencias. Desde elegantes salones de baile hasta encantadores espacios al aire libre, nuestro equipo se asegura de que cada detalle esté adaptado para hacer de tu evento un éxito. Confía en nosotros para encontrar el lugar perfecto que dé vida a tu visión y haga de tu ocasión algo inolvidable."
+  "feed": {
+    "Feed": "Noticias",
+    "Mini": "Síguenos en Instagram"
   },
-  "catering": {
-    "header": "🍽️ Catering Personalizado para Cada Evento – Comida Excepcional, Experiencias Inolvidables 🍽️",
-    "SubHeader": "🍴 Catering Que Eleva Tu Evento – Menús Deliciosos y Personalizados para Cada Ocasión 🍴",
-    "MiniHeader": "No importa el evento, ya sea una boda, reunión corporativa, celebración de un hito o fiesta íntima, nuestros servicios de catering están diseñados para impresionar. Trabajamos estrechamente contigo para crear un menú personalizado que refleje tus gustos y se ajuste a las necesidades de tus invitados. Ya sea que visualices una cena formal, un bufé relajado o aperitivos creativos, nuestro equipo asegura una experiencia gastronómica impecable de principio a fin. Déjanos encargarnos de la comida para que puedas concentrarte en disfrutar de tu ocasión especial, con cada plato elaborado a la perfección."
+  "packages": {
+    "description": "Nuestros paquetes personalizables están diseñados para hacer que la planificación de eventos sea fácil, ya sea que estés organizando una reunión íntima o una gran celebración. Ofrecemos una amplia gama de servicios, incluyendo DJs, catering, bartending y más, permitiéndote mezclar y combinar para crear la experiencia perfecta. Con acceso a una red confiable de proveedores profesionales, nos aseguramos de que cada detalle sea manejado con cuidado, ofreciendo servicios de alta calidad adaptados a tus necesidades. Ya sea una boda, evento corporativo o fiesta privada, estamos aquí para hacer realidad tu visión sin problemas.",
+    "section1": "Eventos",
+    "section2": "Servicios",
+    "packagecont": {
+      "header": "EVENTOS Y SERVICIOS",
+      "header1": "Eventos y Servicios"
+    },
+    "footer": {
+      "packages": "Paquetes",
+      "services": "Servicios",
+      "events": "Eventos"
+    }
   },
-  "bar": {
-    "SubHeader": "🍹 Servicios Profesionales de Bartender para Cada Ocasión – Servicio Excepcional, Bebidas Inolvidables 🍹",
-    "header": "🍸 Servicios Expertos de Bartender – Creando Bebidas Perfectas para Cada Evento 🍸",
-    "MiniHeader": "No importa la ocasión, nuestros servicios de bartender elevarán tu evento con bebidas perfectamente elaboradas y un servicio excepcional. Desde cócteles exclusivos hasta favoritos clásicos, nuestros bartenders profesionales aseguran que tus invitados disfruten de una experiencia memorable con cada sorbo. Déjanos encargarnos de la barra, brindando un servicio fluido y un menú de bebidas personalizado que se ajuste al estilo y ambiente de tu evento. ¡Celebra con estilo con nuestros servicios de bartending de primer nivel que mantienen las bebidas fluyendo y la fiesta viva!"
-  },
-  "chairs": {
-    "header": "🪑 Todo Perfectamente Colocado – Alquiler Premium de Sillas y Mesas para Cada Ocasión 🪑",
-    "SubHeader": "🪑 Sillas y Mesas de Calidad para Cada Evento – Alquileres Elegantes que se Adaptan a Tus Necesidades 🪑",
-    "MiniHeader": "Transforma el espacio de tu evento con nuestros alquileres premium de sillas y mesas, diseñados para adaptarse a cualquier ocasión. Ya sea una boda, reunión corporativa o celebración privada, ofrecemos una amplia selección de muebles que combinan funcionalidad con elegancia. Nuestro equipo asegura una entrega oportuna y una instalación adecuada, creando el ambiente perfecto para que tus invitados disfruten. Confía en nosotros para proporcionar las piezas adecuadas que mejoren la atmósfera y hagan de tu evento algo cómodo e inolvidable."
-  },
-  "tents": {
-    "SubHeader": "⛺️ Alquileres de Carpas Confiables – Perfectas para Cualquier Evento, Llueva o Haga Sol ⛺️",
-    "header": "⛺️ Alquiler de Carpas para Cada Evento – Comodidad y Estilo, Llueva o Haga Sol ⛺️",
-    "MiniHeader": "No importa el clima, nuestros alquileres de carpas de alta calidad ofrecen la solución ideal para cualquier evento. Desde bodas y reuniones corporativas hasta celebraciones al aire libre, ofrecemos una variedad de carpas que se adaptan a tu espacio y estilo. Diseñadas para comodidad y durabilidad, nuestras carpas protegen a tus invitados de los elementos mientras crean un ambiente acogedor. Déjanos encargarnos de la instalación para que puedas disfrutar de un evento sin interrupciones, llueva o haga sol, con una carpa que combine funcionalidad y estilo."
-  },
-  "limos": {
-  "header": "🚐 Alquiler de Limusinas y Autobuses de Fiesta de Lujo – Viaja con Estilo y Comodidad 🚐",
-  "SubHeader": "🎉 Eleva Tu Evento con Alquiler de Limusinas y Autobuses de Fiesta 🎉",
-  "MiniHeader": "Lleva tu celebración al siguiente nivel con nuestros lujosos alquileres de limusinas y autobuses de fiesta. Ya sea una boda, una fiesta de graduación, un evento corporativo o una noche divertida, nuestros vehículos ofrecen la mezcla perfecta de elegancia y emoción. Disfruta de amplios asientos, comodidades modernas y un conductor profesional para asegurar un viaje suave y sin estrés. Desde hacer una gran entrada hasta mantener la fiesta en movimiento, nuestros servicios están diseñados para hacer que cada momento sea inolvidable. Siéntate, relájate y deja que nos encarguemos del viaje mientras disfrutas de la experiencia con estilo."
-},
-"painting": {
-  "MiniHeader": "Agrega un toque de color y emoción a tu evento con nuestros servicios profesionales de pintura facial. Ya sea una fiesta de cumpleaños, un festival, una reunión corporativa o un evento escolar, nuestros talentosos artistas crean diseños impresionantes que deleitan tanto a niños como adultos. Desde personajes divertidos hasta patrones vibrantes, damos vida a tu visión con pinturas seguras y de alta calidad. Haz que tu celebración sea inolvidable con pintura facial que aporta diversión, creatividad y sonrisas para todos.",
-  "header": "🎨 ¡Da Vida a Tu Evento con Vibrante Pintura Facial! ✨",
-  "SubHeader": "🎨 Pintura Facial Divertida y Creativa – Perfecta para Cualquier Evento 🎨"
-},
-"photo": {
-  "header": "📸 Recuerdos en Movimiento – Captura Tus Momentos Especiales con Precisión 🎥",
-  "SubHeader": "📸 Captura Cada Momento – Servicios Profesionales de Fotografía y Videografía 📸",
-  "MiniHeader": "Haz que tus recuerdos sean inolvidables con nuestros servicios expertos de fotografía y videografía. Ya sea una boda, un evento corporativo o una fiesta, capturamos cada momento especial, desde los grandes hitos hasta los pequeños detalles. Nuestro equipo utiliza el equipo más avanzado y técnicas creativas para asegurar que tus recuerdos sean preservados de manera hermosa. Con fotos y videos de alta calidad, podrás revivir tu evento durante muchos años. Déjanos ayudarte a contar tu historia única, fotograma por fotograma."
+  "services": {
+    "header": "¡Mezcla y Combina opciones para hacer realidad tu visión sin problemas!",
+    "parallax": "✨ ¿LISTO PARA COMENZAR? ✨",
+    "servicesmain": {
+      "header": "Nuestros Servicios",
+      "description": "Explora nuestra amplia gama de servicios diseñados para satisfacer las necesidades de tu evento, desde DJs y catering hasta bartending y más. Si hay algo que no ves en la lista, no dudes en contactarnos, y haremos todo lo posible por acomodar tu solicitud.",
+      "desc2": "✨ Soluciones Completas para Eventos – Sillas, Mesas, Carpas, Catering, Bartending ¡y mucho más! ✨",
+
+      "options": {
+        "dj": "Entretenimiento DJ",
+        "venues": "Lugares",
+        "catering": "Catering",
+        "bar": "Bartendering",
+        "chairs": "Sillas y Mesas",
+        "tents": "Carpas",
+        "limo": "Limosinas y Autobuses de Fiesta",
+        "photo": "Fotografía",
+        "painting": "Pintura Facial"
+      }
+    },
+    "venues": {
+      "header": "🏰 Celebra con Estilo – Lugares Impresionantes para Cada Ocasión ✨",
+      "SubHeader": "🌟 Tu Lugar Perfecto Te Espera – Servicios Expertos de Lugar para Cualquier Ocasión 🌟",
+      "MiniHeader": "Déjanos ayudarte a encontrar el lugar ideal para tu próximo evento, ya sea una boda, reunión corporativa, celebración de hitos o reunión íntima. Nos especializamos en conectarte con lugares que se ajusten a tus necesidades únicas, ofreciendo recomendaciones personalizadas basadas en tu estilo y preferencias. Desde elegantes salones de baile hasta encantadores espacios al aire libre, nuestro equipo se asegura de que cada detalle esté diseñado para hacer que tu evento sea un éxito. Confía en nosotros para encontrar el lugar perfecto que haga realidad tu visión y haga que tu ocasión sea inolvidable."
+    },
+    "catering": {
+      "header": "🍽️ Catering Personalizado para Cada Evento – Comida Excepcional, Experiencias Inolvidables 🍽️",
+      "SubHeader": "🍴 Catering Que Eleva Tu Evento – Menús Deliciosos y Personalizados para Cada Ocasión 🍴",
+      "MiniHeader": "No importa el evento – ya sea una boda, reunión corporativa, celebración de hitos o fiesta íntima – nuestros servicios de catering están diseñados para impresionar. Trabajamos estrechamente contigo para crear un menú personalizado que refleje tus gustos y se ajuste a las necesidades de tus invitados. Ya sea una cena formal, un buffet relajado o bocados creativos, nuestro equipo asegura una experiencia gastronómica impecable de principio a fin. Deja que nos encarguemos de la comida mientras tú te concentras en disfrutar de tu ocasión especial, con cada plato preparado a la perfección."
+    },
+    "bar": {
+      "SubHeader": "🍹 Bartending Profesional para Cada Ocasión – Servicio Excepcional, Bebidas Inolvidables 🍹",
+      "header": "🍸 Servicios Expertos de Bartending – Creando Bebidas Perfectas para Cada Evento 🍸",
+      "MiniHeader": "No importa la ocasión, nuestros servicios de bartending elevarán tu evento con bebidas cuidadosamente elaboradas y un servicio excepcional. Desde cócteles exclusivos hasta los favoritos clásicos, nuestros bartenders profesionales aseguran que tus invitados disfruten de una experiencia memorable con cada sorbo. Déjanos encargarnos del bar, proporcionando un servicio fluido y un menú de bebidas personalizado que se ajuste al estilo y ambiente de tu evento. ¡Celebra con estilo con nuestros servicios de bartending de primera calidad que mantienen las bebidas fluyendo y la fiesta viva!"
+    },
+    "chairs": {
+      "header": "🪑 Perfectamente Preparado – Alquiler Premium de Sillas y Mesas para Cada Ocasión 🪑",
+      "SubHeader": "🪑 Sillas y Mesas de Calidad para Cada Evento – Alquileres Elegantes que se Ajustan a tus Necesidades 🪑",
+      "MiniHeader": "Transforma tu espacio de evento con nuestros alquileres premium de sillas y mesas, diseñados para adaptarse a cualquier ocasión. Ya sea una boda, reunión corporativa o celebración privada, ofrecemos una amplia selección de muebles que combinan funcionalidad con elegancia. Nuestro equipo asegura una entrega oportuna y una instalación que crea el ambiente perfecto para que tus invitados disfruten. Confía en nosotros para proporcionarte las piezas adecuadas que mejoren la atmósfera y hagan tu evento cómodo e inolvidable."
+    },
+    "tents": {
+      "SubHeader": "⛺️ Alquileres Confiables de Carpas – Perfectas para Cualquier Evento, Llueva o Truene ⛺️",
+      "header": "⛺️ Alquiler de Carpas para Cada Evento – Comodidad y Estilo, Llueva o Truene ⛺️",
+      "MiniHeader": "No importa el clima, nuestros alquileres de carpas de alta calidad ofrecen la solución ideal para cualquier evento. Desde bodas y reuniones corporativas hasta celebraciones al aire libre, ofrecemos una variedad de carpas que se ajustan a tu espacio y estilo. Diseñadas para comodidad y durabilidad, nuestras carpas protegen a tus invitados de los elementos mientras crean una atmósfera acogedora. Déjanos encargarnos de la instalación para que puedas disfrutar de un evento sin problemas, llueva o truene, con una carpa que mejora tanto la funcionalidad como el estilo."
+    },
+    "limos": {
+      "header": "🚐 Alquileres de Limo y Autobuses de Fiesta de Lujo – Viaja con Estilo y Comodidad 🚐",
+      "SubHeader": "🎉 Eleva Tu Evento con Alquileres de Limo y Autobuses de Fiesta 🎉",
+      "MiniHeader": "Lleva tu celebración al siguiente nivel con nuestros alquileres de limosinas y autobuses de fiesta de lujo. Ya sea para una boda, graduación, evento corporativo o una divertida salida, nuestros vehículos ofrecen la combinación perfecta de elegancia y emoción. Disfruta de asientos espaciosos, comodidades modernas y un conductor profesional para garantizar que tu viaje sea suave y libre de estrés. Desde hacer una entrada grandiosa hasta mantener la fiesta viva mientras viajas, nuestros servicios están diseñados para hacer que cada momento sea inolvidable. Siéntate, relájate y deja que nos encarguemos del viaje mientras disfrutas de la experiencia con estilo."
+    },
+    "painting": {
+      "MiniHeader": "Añade un toque de color y emoción a tu evento con nuestros servicios profesionales de pintura facial. Ya sea una fiesta de cumpleaños, festival, reunión corporativa o evento escolar, nuestros talentosos artistas crean diseños impresionantes que encantan tanto a niños como adultos. Desde personajes divertidos hasta patrones vibrantes, damos vida a tu visión con pinturas seguras y de alta calidad. ¡Haz tu celebración inolvidable con pintura facial que aporta diversión, creatividad y sonrisas para todos!",
+      "header": "🎨 ¡Da Vida a Tu Evento con Pintura Facial Vibrante! ✨",
+      "SubHeader": "🎨 Pintura Facial Creativa y Divertida – Perfecta para Cualquier Evento 🎨"
+    },
+    "photo": {
+      "header": "📸 Recuerdos en Movimiento – Capturando tus Momentos Especiales con Precisión 🎥",
+      "SubHeader": "📸 Captura Cada Momento – Servicios Profesionales de Fotografía y Videografía 📸",
+      "MiniHeader": "Haz que tus recuerdos sean inolvidables con nuestros servicios expertos de fotografía y videografía. Ya sea una boda, evento corporativo o fiesta, capturamos cada momento especial, desde los grandes hitos hasta los pequeños detalles. Nuestro equipo utiliza el equipo más moderno y técnicas creativas para asegurarse de que tus recuerdos sean bellamente preservados. Con fotos y videos de alta calidad, podrás revivir tu evento durante años. Déjanos ayudarte a contar tu historia única, fotograma a fotograma."
+    }
+  }
 }
-
-}
-
-
-
-}
-

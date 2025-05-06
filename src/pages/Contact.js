@@ -270,7 +270,7 @@ const generateEmailBody = () => {
 
         <div className="contact-page-content">
           <div className="contact-form-section">
-            <h2 className="cursive-text2">DJ Parce</h2>
+            <h2 className="cursive-text2">DJ Vroomx3</h2>
             <form onSubmit={handleSubmit} className="contact-form">
               <div className="form-section">
                 <h2>{t("contact.form.contactInformation")}</h2>
